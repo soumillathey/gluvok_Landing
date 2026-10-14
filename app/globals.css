@@ -1,0 +1,147 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@theme inline {
+  --color-background: var(--bg-canvas);
+  --color-foreground: var(--text-primary);
+  --color-card: var(--surface-card);
+  --color-card-foreground: var(--text-primary);
+  --color-popover: var(--surface-card);
+  --color-popover-foreground: var(--text-primary);
+  --color-primary: var(--btn-primary-bg);
+  --color-primary-foreground: var(--btn-primary-text);
+  --color-secondary: var(--olive-wash);
+  --color-secondary-foreground: var(--olive-text);
+  --color-muted: var(--olive-wash);
+  --color-muted-foreground: var(--text-muted);
+  --color-accent: var(--olive-wash);
+  --color-accent-foreground: var(--text-primary);
+  --color-destructive: #9F2F2D;
+  --color-border: var(--border-hairline);
+  --color-input: var(--border-hairline);
+  --color-ring: var(--olive-accent);
+
+  --color-olive-accent: var(--olive-accent);
+  --color-olive-wash: var(--olive-wash);
+  --color-olive-text: var(--olive-text);
+  --color-olive-border: var(--olive-border);
+
+  --font-heading: var(--font-heading), "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-sans: var(--font-sans), "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: var(--font-mono), "Geist Mono", monospace;
+
+  --radius: 6px;
+}
+
+:root {
+  /* Gluvok Paper Palette: Rikyū Matcha & Tea Moss (利休茶) (Japan Heritage) */
+  --accent: #66684F;
+  --accent-hover: #52543D;
+  --accent-text: #FFFFFF;
+
+  --paper-wash: #F3F4EE;
+  --paper-text: #24261B;
+  --paper-border: #D8DBC8;
+  --paper-bg: #F8F8F5;
+  --paper-card: #FFFFFF;
+  --paper-text-muted: #6E715B;
+
+  /* Canvas & Surface Tokens (Light Paper Canvas) */
+  --bg-canvas: #F8F8F5;
+  --surface-card: #FFFFFF;
+  --text-primary: #24261B;
+  --text-muted: #6E715B;
+  --border-hairline: #D8DBC8;
+
+  /* Accent & Wash Tokens */
+  --olive-accent: #66684F;
+  --olive-wash: #F3F4EE;
+  --olive-text: #66684F;
+  --olive-border: #D8DBC8;
+  --olive-hover: #52543D;
+
+  /* Primary Button Tokens (Button Mode: Chromatic / Color) */
+  --btn-primary-bg: #66684F;
+  --btn-primary-border: #66684F;
+  --btn-primary-text: #FFFFFF;
+  --btn-primary-hover: #52543D;
+
+  --primary-btn-bg: #66684F;
+  --primary-btn-border: #66684F;
+  --primary-btn-text: #FFFFFF;
+  --primary-btn-hover: #52543D;
+}
+
+@layer base {
+  * {
+    border-color: var(--border-hairline, #D8DBC8);
+  }
+  body {
+    background-color: var(--bg-canvas, #F8F8F5);
+    color: var(--text-primary, #24261B);
+    font-family: var(--font-sans), sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading), sans-serif;
+    letter-spacing: -0.025em;
+    color: var(--text-primary, #24261B);
+  }
+}
+
+/* Explicit Dynamic Classes */
+.bg-canvas {
+  background-color: var(--bg-canvas) !important;
+}
+.bg-surface-card {
+  background-color: var(--surface-card) !important;
+}
+.text-main {
+  color: var(--text-primary) !important;
+}
+.text-sub {
+  color: var(--text-muted) !important;
+}
+.border-subtle {
+  border-color: var(--border-hairline) !important;
+}
+
+.bg-olive-accent {
+  background-color: var(--olive-accent) !important;
+}
+.bg-olive-wash {
+  background-color: var(--olive-wash) !important;
+}
+.text-olive-text {
+  color: var(--olive-text) !important;
+}
+.text-olive-accent {
+  color: var(--olive-accent) !important;
+}
+.border-olive-border {
+  border-color: var(--olive-border) !important;
+}
+.border-olive-accent {
+  border-color: var(--olive-accent) !important;
+}
+
+/* Primary Button dynamic class */
+.btn-olive-primary {
+  background-color: var(--btn-primary-bg, var(--olive-accent)) !important;
+  border-color: var(--btn-primary-border, var(--olive-accent)) !important;
+  color: var(--btn-primary-text, #FFFFFF) !important;
+  transition: all 0.15s ease-in-out;
+}
+.btn-olive-primary:hover {
+  background-color: var(--btn-primary-hover, var(--olive-hover)) !important;
+  border-color: var(--btn-primary-hover, var(--olive-hover)) !important;
+}
+
+/* Badge dynamic class */
+.badge-olive {
+  background-color: var(--olive-wash) !important;
+  color: var(--olive-text) !important;
+  border-color: var(--olive-border) !important;
+}
