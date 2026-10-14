@@ -142,9 +142,6 @@ export default function MinimalistLandingPage() {
           </a>
 
           <nav aria-label="Main Navigation" className="hidden lg:flex items-center gap-6 text-sm font-sans text-[var(--text-muted)]">
-            <a href="#why-gluvok" className="hover:text-[var(--text-primary)] transition-colors outline-none focus-visible:ring-2 focus-visible:ring-[#111111] rounded-[4px] py-1">
-              Why Gluvok
-            </a>
             <a href="#modules" className="hover:text-[var(--text-primary)] transition-colors outline-none focus-visible:ring-2 focus-visible:ring-[#111111] rounded-[4px] py-1">
               System Modules
             </a>
@@ -210,12 +207,6 @@ export default function MinimalistLandingPage() {
           <p className="font-sans text-xs sm:text-sm text-[var(--text-muted)] leading-relaxed max-w-3xl mb-3.5 font-normal">
             Plants lose money to manual weight changes, colluding staff, billing arguments, and recurring shift wages. Gluvok automates weighing at the scale. The system locks indicator readings, takes dispute photos from three angles, and logs vehicle plates into your cloud account without booth attendants.
           </p>
-
-          <div className="p-3 sm:p-3.5 rounded-[10px] bg-[var(--olive-wash)] border border-[var(--olive-border)] max-w-3xl mb-4.5 transition-colors duration-200">
-            <p className="font-sans text-xs sm:text-sm font-semibold text-[var(--text-primary)] leading-snug">
-              Front cameras read the plate, optical sensors verify scale positioning, and top cameras photograph the cargo bed before logging gross weight.
-            </p>
-          </div>
 
           <div className="flex flex-wrap items-center gap-3 mb-6">
             <Button
@@ -293,90 +284,6 @@ export default function MinimalistLandingPage() {
                 Track inbound raw materials, finished product dispatches, and daily tonnage across all plants from any browser.
               </div>
             </div>
-          </div>
-        </section>
-
-        {/* ─────────────────────────────────────────────────────────────
-            3. WHY GLUVOK // OPERATIONAL REALITY (Bento Box Layout)
-        ───────────────────────────────────────────────────────────── */}
-        <section
-          id="why-gluvok"
-          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-8 sm:py-10 max-w-6xl mx-auto w-full"
-        >
-          <div className="max-w-3xl mb-6 sm:mb-8">
-            <span className="font-mono text-xs uppercase tracking-widest text-[var(--text-muted)] block mb-3">
-              OPERATIONAL INTEGRITY &amp; UNMANNED AUTOMATION
-            </span>
-            <h2 className="font-heading text-xl sm:text-2xl lg:text-3xl font-bold leading-snug text-[var(--text-primary)] mb-6 text-balance">
-              Stop Inventory Shrinkage. Cut Booth Shifts. See Scale Operations Live.
-            </h2>
-            <p className="font-sans text-xs sm:text-sm text-[var(--text-muted)] leading-relaxed">
-              Weighbridge cabins lose inventory to inaccurate entries, collusion, and high shift payroll. Gluvok replaces booth paperwork with automated scale controls.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5 mb-6 sm:mb-8">
-            <div className="p-5 sm:p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
-              <div>
-                <div className="size-8 rounded-[6px] bg-[var(--olive-wash)] border border-[var(--olive-border)] flex items-center justify-center font-mono text-xs font-bold text-[var(--olive-text)] mb-6 tabular-nums" aria-hidden="true">
-                  01
-                </div>
-                <h3 className="font-heading text-base font-bold text-[var(--text-primary)] mb-1.5">
-                  100% Prevention of Weight Manipulation
-                </h3>
-                <p className="font-sans text-sm text-[var(--text-muted)] leading-relaxed">
-                  Stop tare manipulation, axle lifting, off-scale positioning, and altered paper slips. Gluvok connects straight to digital indicator ports and accepts readings only when optical sensors confirm the truck sits entirely on the platform. Staff cannot overwrite numbers.
-                </p>
-              </div>
-            </div>
-
-            <div className="p-5 sm:p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
-              <div>
-                <div className="size-8 rounded-[6px] bg-[var(--olive-wash)] border border-[var(--olive-border)] flex items-center justify-center font-mono text-xs font-bold text-[var(--olive-text)] mb-6 tabular-nums" aria-hidden="true">
-                  02
-                </div>
-                <h3 className="font-heading text-base font-bold text-[var(--text-primary)] mb-1.5">
-                  Mitigate the Need for On-Site Operators
-                </h3>
-                <p className="font-sans text-sm text-[var(--text-muted)] leading-relaxed">
-                  Convert round-the-clock weighbridge stations into drive-through lanes. Boom barriers, traffic lights, bilingual voice prompts, and touch kiosks guide drivers across the scale in under 30 seconds. Most plants lower staffing costs by 60% to 80%.
-                </p>
-              </div>
-            </div>
-
-            <div className="p-5 sm:p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
-              <div>
-                <div className="size-8 rounded-[6px] bg-[var(--olive-wash)] border border-[var(--olive-border)] flex items-center justify-center font-mono text-xs font-bold text-[var(--olive-text)] mb-6 tabular-nums" aria-hidden="true">
-                  03
-                </div>
-                <h3 className="font-heading text-base font-bold text-[var(--text-primary)] mb-1.5">
-                  Direct Weighbridge Images for Every Dispute
-                </h3>
-                <p className="font-sans text-sm text-[var(--text-muted)] leading-relaxed">
-                  Settle weight arguments with vendors and transport fleets on the spot. Each weighment records camera frames of the license plate, open cargo bed, and rear axle position. You can pull up the photos in your cloud portal or print them on delivery challans.
-                </p>
-              </div>
-            </div>
-
-            <div className="p-5 sm:p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
-              <div>
-                <div className="size-8 rounded-[6px] bg-[var(--olive-wash)] border border-[var(--olive-border)] flex items-center justify-center font-mono text-xs font-bold text-[var(--olive-text)] mb-6 tabular-nums" aria-hidden="true">
-                  04
-                </div>
-                <h3 className="font-heading text-base font-bold text-[var(--text-primary)] mb-1.5">
-                  Real-Time Cloud Ledger &amp; Global Analytical Graphs
-                </h3>
-                <p className="font-sans text-sm text-[var(--text-muted)] leading-relaxed">
-                  Track incoming materials and outgoing product shipments in real time. Executive dashboards show daily tonnage, vehicle turnaround times, and scale alerts from your phone or desktop.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] text-center">
-            <p className="font-heading text-sm sm:text-base font-bold text-[var(--text-primary)] max-w-3xl mx-auto">
-              From inbound raw materials to outbound dispatches: verified indicator weights, photo proof for each ticket, and zero manual typing.
-            </p>
           </div>
         </section>
 
@@ -530,18 +437,6 @@ export default function MinimalistLandingPage() {
             </div>
           </div>
 
-          {/* Core Assurance Callout */}
-          <div className="p-5 sm:p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)]">
-            <h4 className="font-heading text-base font-bold text-[var(--text-primary)] mb-1.5">
-              Direct Scale Verification for Every Load
-            </h4>
-            <p className="font-sans text-sm text-[var(--text-muted)] leading-relaxed mb-3">
-              Gluvok connects directly to your digital weight indicator. Cameras photograph the vehicle and license plate while sensors confirm truck positioning. You get verified weights and clear photographic records for every shipment entering or leaving your plant.
-            </p>
-            <p className="font-sans text-sm font-semibold text-[var(--text-primary)]">
-              Scale numbers stay locked. Photos stay attached to slips. Disputes get resolved with hard evidence.
-            </p>
-          </div>
         </section>
 
         {/* ─────────────────────────────────────────────────────────────
@@ -697,19 +592,6 @@ export default function MinimalistLandingPage() {
             <p className="font-sans text-xs sm:text-sm text-[var(--text-muted)] leading-relaxed mb-4">
               Hardware configurations vary by station. Enter your shift count and operator salaries below to review your recurring payroll and see what automation could save your facility.
             </p>
-            <div className="flex flex-wrap items-center gap-3">
-              <Button
-                size="lg"
-                className="text-sm font-semibold"
-                onClick={() => {
-                  const el = document.getElementById("roi-calculator");
-                  el?.scrollIntoView({ behavior: "smooth" });
-                }}
-              >
-                Calculate Your ROI
-                <ArrowRight className="size-4 ml-1" aria-hidden="true" />
-              </Button>
-            </div>
           </div>
 
           {/* Enterprise ROI Calculator Engine */}
@@ -800,51 +682,16 @@ export default function MinimalistLandingPage() {
           id="book-demo"
           className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-8 sm:py-10 max-w-4xl mx-auto w-full"
         >
-          <div className="text-center mb-6 sm:mb-8">
-            <span className="font-mono text-xs uppercase tracking-widest text-[var(--text-muted)] block mb-3">
-              OPERATIONAL AUDIT &amp; DEMO
+          <div className="text-center mb-6 sm:mb-8 max-w-2xl mx-auto">
+            <span className="font-mono text-xs uppercase tracking-widest text-[var(--text-muted)] block mb-2">
+              SCHEDULE A WALKTHROUGH
             </span>
-            <h2 className="font-heading text-xl sm:text-2xl lg:text-3xl font-bold text-[var(--text-primary)] leading-snug mb-4 text-balance">
-              Audit Your Weighbridge Operations
-            </h2>
-            <p className="font-sans text-sm text-[var(--text-muted)] max-w-2xl mx-auto mb-4">
-              Weighbridge operations should be transparent. Gluvok connects physical scale hardware, vehicle cameras, and digital records into one clear workflow.
-            </p>
-            <div className="p-3.5 rounded-[8px] bg-[var(--olive-wash)] border border-[var(--olive-border)] max-w-xl mx-auto mb-5">
-              <p className="font-heading text-sm font-bold text-[var(--text-primary)]">
-                Cut booth shift costs. Lock scale numbers. Settle vendor disputes with photographic records.
-              </p>
-            </div>
-            <h3 className="font-heading text-base sm:text-lg font-bold text-[var(--text-primary)] mb-1.5">
+            <h2 className="font-heading text-xl sm:text-2xl lg:text-3xl font-bold text-[var(--text-primary)] leading-snug mb-2 text-balance">
               Request an Operational Walkthrough
-            </h3>
-            <p className="font-sans text-xs sm:text-sm text-[var(--text-muted)] max-w-xl mx-auto mb-4">
-              Tell us about your facility. We will show you how the hardware connects to your indicators and calculate your potential savings.
+            </h2>
+            <p className="font-sans text-xs sm:text-sm text-[var(--text-muted)] leading-relaxed">
+              Tell us about your weighbridge stations. We will review your indicator compatibility, demonstrate camera tracking, and calculate your potential savings.
             </p>
-            <div className="flex flex-wrap items-center justify-center gap-3">
-              <Button
-                size="lg"
-                className="text-sm font-semibold"
-                onClick={() => {
-                  const el = document.getElementById("factory-name-input");
-                  el?.focus();
-                }}
-              >
-                Book a Demo
-                <ArrowRight className="size-4 ml-1" aria-hidden="true" />
-              </Button>
-              <Button
-                variant="outline"
-                size="lg"
-                className="text-sm"
-                onClick={() => {
-                  const el = document.getElementById("calculator");
-                  el?.scrollIntoView({ behavior: "smooth" });
-                }}
-              >
-                Discuss Your ROI
-              </Button>
-            </div>
           </div>
 
           <div className="bg-[var(--surface-card)] border border-[var(--border-hairline)] p-6 sm:p-7 rounded-[12px] max-w-2xl mx-auto">
@@ -957,9 +804,6 @@ export default function MinimalistLandingPage() {
           </div>
 
           <nav aria-label="Footer Navigation" className="flex flex-wrap items-center gap-6 font-sans text-xs text-[var(--text-muted)]">
-            <a href="#why-gluvok" className="hover:text-[var(--text-primary)] transition-colors outline-none focus-visible:ring-2 focus-visible:ring-[#111111] rounded-[2px]">
-              Why Gluvok
-            </a>
             <a href="#modules" className="hover:text-[var(--text-primary)] transition-colors outline-none focus-visible:ring-2 focus-visible:ring-[#111111] rounded-[2px]">
               Modules
             </a>
