@@ -154,9 +154,6 @@ export default function MinimalistLandingPage() {
             <a href="#calculator" className="hover:text-[var(--text-primary)] transition-colors outline-none focus-visible:ring-2 focus-visible:ring-[#111111] rounded-[4px] py-1">
               Savings Calculator
             </a>
-            <a href="#disputes" className="hover:text-[var(--text-primary)] transition-colors outline-none focus-visible:ring-2 focus-visible:ring-[#111111] rounded-[4px] py-1">
-              Dispute Protocol
-            </a>
             <a href="#faq" className="hover:text-[var(--text-primary)] transition-colors outline-none focus-visible:ring-2 focus-visible:ring-[#111111] rounded-[4px] py-1">
               FAQ
             </a>
@@ -721,93 +718,7 @@ export default function MinimalistLandingPage() {
           </div>
         </section>
 
-        {/* ─────────────────────────────────────────────────────────────
-            7. DISPUTE RESOLUTION PROTOCOL (Bento Grid)
-        ───────────────────────────────────────────────────────────── */}
-        <section
-          id="disputes"
-          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-8 sm:py-10 max-w-6xl mx-auto w-full"
-        >
-          <div className="max-w-3xl mb-6 sm:mb-8">
-            <span className="font-mono text-xs uppercase tracking-widest text-[var(--text-muted)] block mb-3">
-              PHOTOGRAPHIC DISPUTE PROTOCOL
-            </span>
-            <h2 className="font-heading text-xl sm:text-2xl lg:text-3xl font-bold leading-snug text-[var(--text-primary)] mb-4 text-balance">
-              Direct Weighbridge Images Resolve Disputes in Under 60 Seconds
-            </h2>
-            <p className="font-sans text-xs sm:text-sm text-[var(--text-muted)]">
-              How photographic snapshots settle weight arguments with suppliers, contractors, and transporters:
-            </p>
-          </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {/* Case 1 */}
-            <div className="p-5 sm:p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
-              <div>
-                <div className="flex items-center justify-between mb-4">
-                  <Badge variant="yellow">Weight Shortage Dispute</Badge>
-                  <span className="font-mono text-xs text-[var(--text-muted)]">#TK-101</span>
-                </div>
-                <h3 className="font-heading text-sm sm:text-base font-bold text-[var(--text-primary)] mb-1.5">
-                  Supplier Claims 32.5 MT vs 29.8 MT Logged
-                </h3>
-                <p className="font-sans text-xs text-[var(--text-muted)] leading-relaxed mb-4">
-                  <strong>Logged Dispute:</strong> Inbound scrap supplier claimed full 32.5 MT dispatch and disputed the lower receiver weighment slip.
-                </p>
-                <div className="p-3 rounded-[6px] bg-[#F9F9F8] border border-[var(--border-hairline)] font-sans text-xs text-[var(--text-primary)]">
-                  <strong>Direct Image Proof:</strong> Top-down camera photo showed cargo bed was only 75% full upon arrival. Stamped, watermarked image settled the claim on the spot.
-                </div>
-              </div>
-              <div className="mt-6 pt-3 border-t border-[var(--border-hairline)] text-xs font-mono text-[var(--olive-text)] transition-colors duration-200">
-                Resolved via Top Bed Camera Proof
-              </div>
-            </div>
-
-            {/* Case 2 */}
-            <div className="p-5 sm:p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
-              <div>
-                <div className="flex items-center justify-between mb-4">
-                  <Badge variant="blue">Plate &amp; Truck Swap</Badge>
-                  <span className="font-mono text-xs text-[var(--text-muted)]">#TK-102</span>
-                </div>
-                <h3 className="font-heading text-sm sm:text-base font-bold text-[var(--text-primary)] mb-1.5">
-                  Ghost Trucking &amp; Paper Challan Swap
-                </h3>
-                <p className="font-sans text-xs text-[var(--text-muted)] leading-relaxed mb-4">
-                  <strong>Logged Dispute:</strong> Driver attempted to use a forged paper challan for a different heavier truck to claim unauthorized payout.
-                </p>
-                <div className="p-3 rounded-[6px] bg-[#F9F9F8] border border-[var(--border-hairline)] font-sans text-xs text-[var(--text-primary)]">
-                  <strong>Direct Image Proof:</strong> Plate camera identified the vehicle in 800ms. Cabin photo captured the driver. The system kept the barrier down and notified the scale manager.
-                </div>
-              </div>
-              <div className="mt-6 pt-3 border-t border-[var(--border-hairline)] text-xs font-mono text-[var(--olive-text)] transition-colors duration-200">
-                Blocked by Automatic ANPR &amp; Cab Photo
-              </div>
-            </div>
-
-            {/* Case 3 */}
-            <div className="p-5 sm:p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
-              <div>
-                <div className="flex items-center justify-between mb-4">
-                  <Badge variant="red">Axle Ramp Manipulation</Badge>
-                  <span className="font-mono text-xs text-[var(--text-muted)]">#TK-103</span>
-                </div>
-                <h3 className="font-heading text-sm sm:text-base font-bold text-[var(--text-primary)] mb-1.5">
-                  Off-Scale Axle Cheating on Tare
-                </h3>
-                <p className="font-sans text-xs text-[var(--text-muted)] leading-relaxed mb-4">
-                  <strong>Logged Dispute:</strong> Driver stopped with rear wheels partially on approach ramp to artificially lower tare weight by 1,200 kg.
-                </p>
-                <div className="p-3 rounded-[6px] bg-[#F9F9F8] border border-[var(--border-hairline)] font-sans text-xs text-[var(--text-primary)]">
-                  <strong>Direct Image Proof:</strong> Wheel sensors and rear camera detected tire overhang. The system blocked weight capture and voice prompts instructed the driver to pull forward.
-                </div>
-              </div>
-              <div className="mt-6 pt-3 border-t border-[var(--border-hairline)] text-xs font-mono text-[var(--olive-text)] transition-colors duration-200">
-                Prevented via Optical Boundary Sensors
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* ─────────────────────────────────────────────────────────────
             8. MINIMALIST FAQ (Border-Bottom Divided Accordion, Sharp +/-)
@@ -1057,9 +968,6 @@ export default function MinimalistLandingPage() {
             </a>
             <a href="#calculator" className="hover:text-[var(--text-primary)] transition-colors outline-none focus-visible:ring-2 focus-visible:ring-[#111111] rounded-[2px]">
               Calculator
-            </a>
-            <a href="#disputes" className="hover:text-[var(--text-primary)] transition-colors outline-none focus-visible:ring-2 focus-visible:ring-[#111111] rounded-[2px]">
-              Disputes
             </a>
             <a href="#faq" className="hover:text-[var(--text-primary)] transition-colors outline-none focus-visible:ring-2 focus-visible:ring-[#111111] rounded-[2px]">
               FAQ
