@@ -57,7 +57,7 @@ export default function RootLayout({
         "scroll-smooth selection:bg-[#111111] selection:text-[#FFFFFF]"
       )}
     >
-      <body className="min-h-screen bg-[#FBFBFA] text-[#111111] font-sans antialiased selection:bg-[#111111] selection:text-[#FFFFFF]">
+      <body className="min-h-screen bg-[var(--bg-canvas)] text-[var(--text-primary)] font-sans antialiased selection:bg-[#111111] selection:text-[#FFFFFF]">
         {children}
       </body>
     </html>

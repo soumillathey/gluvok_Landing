@@ -196,49 +196,49 @@ export default function MinimalistLandingPage() {
         {/* ─────────────────────────────────────────────────────────────
             2. HERO SECTION (Editorial Serif Heading + Clean Sans Body)
         ───────────────────────────────────────────────────────────── */}
-                <section className="px-6 lg:px-16 pt-10 sm:pt-14 pb-12 sm:pb-16 max-w-6xl mx-auto w-full">
-          <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-[var(--olive-wash)] border border-[var(--olive-border)] text-[11px] font-sans font-medium text-[var(--olive-text)] mb-4 transition-colors duration-200">
+                <section className="px-6 lg:px-16 pt-5 sm:pt-7 pb-8 sm:pb-10 max-w-6xl mx-auto w-full">
+          <div className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-[var(--olive-wash)] border border-[var(--olive-border)] text-[10px] font-sans font-medium text-[var(--olive-text)] mb-2.5 transition-colors duration-200">
             <span className="size-1.5 rounded-full bg-[var(--olive-accent)] inline-block transition-colors duration-200" aria-hidden="true" />
             UNMANNED WEIGHBRIDGE AUTOMATION // 100% ANTI-TAMPER CLOUD SYSTEM
           </div>
 
-          <h1 className="font-heading font-extrabold text-4xl sm:text-6xl lg:text-[68px] leading-[1.08] tracking-[-0.03em] text-[var(--text-primary)] mb-3 max-w-4xl text-balance">
+          <h1 className="font-heading font-extrabold text-2xl sm:text-3xl lg:text-[38px] leading-[1.12] tracking-[-0.025em] text-[var(--text-primary)] mb-2 max-w-3xl text-balance">
             100% Prevention on Weight Manipulation. Zero Operator Fraud.
           </h1>
 
-          <h2 className="font-heading text-xl sm:text-2xl font-bold text-[var(--text-primary)] mb-3 max-w-3xl">
+          <h2 className="font-heading text-sm sm:text-base font-semibold text-[var(--text-primary)] mb-2 max-w-2xl">
             Mitigate On-Site Operator Dependence with Automatic ANPR, Direct Dispute Imagery &amp; Real-Time Cloud Intelligence.
           </h2>
 
-          <p className="font-sans text-base sm:text-lg text-[var(--text-muted)] leading-relaxed max-w-3xl mb-4 font-normal">
+          <p className="font-sans text-xs sm:text-sm text-[var(--text-muted)] leading-relaxed max-w-2xl mb-3 font-normal">
             Traditional weighbridges lose millions to manual weight tampering, operator-driver collusion, billing disputes, and heavy 24/7 staffing costs. Gluvok automates the entire weighing cycle: capturing direct indicator weights, multi-angle dispute photographs, and automatic license plates straight to a global cloud ledger—without requiring operators on-site.
           </p>
 
-          <div className="p-4 sm:p-5 rounded-[12px] bg-[var(--olive-wash)] border border-[var(--olive-border)] max-w-3xl mb-6 transition-colors duration-200">
-            <p className="font-sans text-sm sm:text-base font-semibold text-[var(--text-primary)] leading-relaxed">
-              Autonomous Weighing. Direct Scale Evidence. Instant Dispute Settlement. Global Remote Analytics.
+          <div className="p-2.5 sm:p-3 rounded-[8px] bg-[var(--olive-wash)] border border-[var(--olive-border)] max-w-2xl mb-4 transition-colors duration-200">
+            <p className="font-sans text-xs sm:text-[13px] font-semibold text-[var(--text-primary)] leading-snug">
+              Autonomous Weighing • Direct Scale Evidence • Instant Dispute Settlement • Global Remote Analytics
             </p>
-            <p className="font-sans text-xs sm:text-sm text-[var(--text-muted)] mt-1.5">
+            <p className="font-sans text-[11px] text-[var(--text-muted)] mt-0.5">
               Every incoming and outgoing vehicle is automatically identified, photographed on the platform, and permanently recorded to the cloud with zero human intervention.
             </p>
           </div>
 
-          <div className="flex flex-wrap items-center gap-3.5 mb-8 sm:mb-10">
+          <div className="flex flex-wrap items-center gap-2.5 mb-6">
             <Button
-              size="lg"
-              className="text-sm font-semibold"
+              size="sm"
+              className="text-xs font-semibold h-9 px-4"
               onClick={() => {
                 const el = document.getElementById("calculator");
                 el?.scrollIntoView({ behavior: "smooth" });
               }}
             >
               Calculate Your Potential Savings
-              <ArrowRight className="size-4 ml-1" aria-hidden="true" />
+              <ArrowRight className="size-3.5 ml-1" aria-hidden="true" />
             </Button>
             <Button
               variant="outline"
-              size="lg"
-              className="text-sm"
+              size="sm"
+              className="text-xs h-9 px-4"
               onClick={() => {
                 const el = document.getElementById("book-demo");
                 el?.scrollIntoView({ behavior: "smooth" });
@@ -249,55 +249,55 @@ export default function MinimalistLandingPage() {
           </div>
 
           {/* 4 Metric Bento Cards */}
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3.5 sm:gap-4">
-            <div className="p-4 sm:p-5 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)]">
-              <div className="flex items-center gap-2 mb-2 text-[var(--olive-accent)]">
-                <ShieldCheck className="size-4" />
-                <span className="font-mono text-xs uppercase tracking-wider font-semibold">ANTI-TAMPER</span>
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
+            <div className="p-3.5 rounded-[10px] bg-[var(--surface-card)] border border-[var(--border-hairline)]">
+              <div className="flex items-center gap-1.5 mb-1.5 text-[var(--olive-accent)]">
+                <ShieldCheck className="size-3.5" />
+                <span className="font-mono text-[10px] uppercase tracking-wider font-semibold">ANTI-TAMPER</span>
               </div>
-              <div className="font-heading text-3xl sm:text-4xl font-bold tracking-tight text-[var(--text-primary)] tabular-nums">
+              <div className="font-heading text-xl sm:text-2xl font-bold tracking-tight text-[var(--text-primary)] tabular-nums">
                 100% Lock
               </div>
-              <div className="font-sans text-xs text-[var(--text-muted)] mt-2 leading-relaxed">
+              <div className="font-sans text-[11px] text-[var(--text-muted)] mt-1 leading-snug">
                 Direct encrypted indicator capture prevents manual keyboard alteration or weight manipulation.
               </div>
             </div>
 
-            <div className="p-4 sm:p-5 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)]">
-              <div className="flex items-center gap-2 mb-2 text-[var(--olive-accent)]">
-                <Camera className="size-4" />
-                <span className="font-mono text-xs uppercase tracking-wider font-semibold">DISPUTE PROOF</span>
+            <div className="p-3.5 rounded-[10px] bg-[var(--surface-card)] border border-[var(--border-hairline)]">
+              <div className="flex items-center gap-1.5 mb-1.5 text-[var(--olive-accent)]">
+                <Camera className="size-3.5" />
+                <span className="font-mono text-[10px] uppercase tracking-wider font-semibold">DISPUTE PROOF</span>
               </div>
-              <div className="font-heading text-3xl sm:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
+              <div className="font-heading text-xl sm:text-2xl font-bold tracking-tight text-[var(--text-primary)]">
                 Direct Images
               </div>
-              <div className="font-sans text-xs text-[var(--text-muted)] mt-2 leading-relaxed">
+              <div className="font-sans text-[11px] text-[var(--text-muted)] mt-1 leading-snug">
                 Multi-angle camera snapshots of truck, cargo bed, and license plate stored for every weighment.
               </div>
             </div>
 
-            <div className="p-4 sm:p-5 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)]">
-              <div className="flex items-center gap-2 mb-2 text-[var(--olive-accent)]">
-                <Scan className="size-4" />
-                <span className="font-mono text-xs uppercase tracking-wider font-semibold">AUTOMATIC ANPR</span>
+            <div className="p-3.5 rounded-[10px] bg-[var(--surface-card)] border border-[var(--border-hairline)]">
+              <div className="flex items-center gap-1.5 mb-1.5 text-[var(--olive-accent)]">
+                <Scan className="size-3.5" />
+                <span className="font-mono text-[10px] uppercase tracking-wider font-semibold">AUTOMATIC ANPR</span>
               </div>
-              <div className="font-heading text-3xl sm:text-4xl font-bold tracking-tight text-[var(--text-primary)] tabular-nums">
+              <div className="font-heading text-xl sm:text-2xl font-bold tracking-tight text-[var(--text-primary)] tabular-nums">
                 &lt; 1 Second
               </div>
-              <div className="font-sans text-xs text-[var(--text-muted)] mt-2 leading-relaxed">
+              <div className="font-sans text-[11px] text-[var(--text-muted)] mt-1 leading-snug">
                 High-speed OCR vehicle recognition eliminates queue bottlenecks and manual typing errors.
               </div>
             </div>
 
-            <div className="p-4 sm:p-5 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)]">
-              <div className="flex items-center gap-2 mb-2 text-[var(--olive-accent)]">
-                <Cloud className="size-4" />
-                <span className="font-mono text-xs uppercase tracking-wider font-semibold">CLOUD &amp; ANALYTICS</span>
+            <div className="p-3.5 rounded-[10px] bg-[var(--surface-card)] border border-[var(--border-hairline)]">
+              <div className="flex items-center gap-1.5 mb-1.5 text-[var(--olive-accent)]">
+                <Cloud className="size-3.5" />
+                <span className="font-mono text-[10px] uppercase tracking-wider font-semibold">CLOUD &amp; ANALYTICS</span>
               </div>
-              <div className="font-heading text-3xl sm:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
+              <div className="font-heading text-xl sm:text-2xl font-bold tracking-tight text-[var(--text-primary)]">
                 Global Live
               </div>
-              <div className="font-sans text-xs text-[var(--text-muted)] mt-2 leading-relaxed">
+              <div className="font-sans text-[11px] text-[var(--text-muted)] mt-1 leading-snug">
                 Real-time incoming/outgoing weighments and visual analytical graphs accessible worldwide.
               </div>
             </div>
@@ -309,16 +309,16 @@ export default function MinimalistLandingPage() {
         ───────────────────────────────────────────────────────────── */}
         <section
           id="why-gluvok"
-          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-12 sm:py-16 max-w-6xl mx-auto w-full"
+          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-8 sm:py-10 max-w-6xl mx-auto w-full"
         >
           <div className="max-w-3xl mb-6 sm:mb-8">
             <span className="font-mono text-xs uppercase tracking-widest text-[var(--text-muted)] block mb-3">
               OPERATIONAL INTEGRITY &amp; UNMANNED AUTOMATION
             </span>
-            <h2 className="font-heading text-4xl sm:text-5xl font-bold leading-tight text-[var(--text-primary)] mb-6 text-balance">
+            <h2 className="font-heading text-xl sm:text-2xl lg:text-3xl font-bold leading-snug text-[var(--text-primary)] mb-6 text-balance">
               Eliminate Fraud. Mitigate Operators. Gain Total Cloud Visibility.
             </h2>
-            <p className="font-sans text-lg sm:text-xl text-[var(--text-muted)] leading-relaxed">
+            <p className="font-sans text-xs sm:text-sm text-[var(--text-muted)] leading-relaxed">
               Manual weighbridge booths are the single largest source of inventory leakage, billing disputes, and recurring shift payroll. Gluvok replaces vulnerable manual intervention with autonomous, tamper-proof industrial automation.
             </p>
           </div>
@@ -329,7 +329,7 @@ export default function MinimalistLandingPage() {
                 <div className="size-8 rounded-[6px] bg-[var(--olive-wash)] border border-[var(--olive-border)] flex items-center justify-center font-mono text-xs font-bold text-[var(--olive-text)] mb-6 tabular-nums" aria-hidden="true">
                   01
                 </div>
-                <h3 className="font-heading text-2xl font-bold text-[var(--text-primary)] mb-3">
+                <h3 className="font-heading text-base font-bold text-[var(--text-primary)] mb-1.5">
                   100% Prevention of Weight Manipulation
                 </h3>
                 <p className="font-sans text-sm text-[var(--text-muted)] leading-relaxed">
@@ -343,7 +343,7 @@ export default function MinimalistLandingPage() {
                 <div className="size-8 rounded-[6px] bg-[var(--olive-wash)] border border-[var(--olive-border)] flex items-center justify-center font-mono text-xs font-bold text-[var(--olive-text)] mb-6 tabular-nums" aria-hidden="true">
                   02
                 </div>
-                <h3 className="font-heading text-2xl font-bold text-[var(--text-primary)] mb-3">
+                <h3 className="font-heading text-base font-bold text-[var(--text-primary)] mb-1.5">
                   Mitigate the Need for On-Site Operators
                 </h3>
                 <p className="font-sans text-sm text-[var(--text-muted)] leading-relaxed">
@@ -357,7 +357,7 @@ export default function MinimalistLandingPage() {
                 <div className="size-8 rounded-[6px] bg-[var(--olive-wash)] border border-[var(--olive-border)] flex items-center justify-center font-mono text-xs font-bold text-[var(--olive-text)] mb-6 tabular-nums" aria-hidden="true">
                   03
                 </div>
-                <h3 className="font-heading text-2xl font-bold text-[var(--text-primary)] mb-3">
+                <h3 className="font-heading text-base font-bold text-[var(--text-primary)] mb-1.5">
                   Direct Weighbridge Images for Every Dispute
                 </h3>
                 <p className="font-sans text-sm text-[var(--text-muted)] leading-relaxed">
@@ -371,7 +371,7 @@ export default function MinimalistLandingPage() {
                 <div className="size-8 rounded-[6px] bg-[var(--olive-wash)] border border-[var(--olive-border)] flex items-center justify-center font-mono text-xs font-bold text-[var(--olive-text)] mb-6 tabular-nums" aria-hidden="true">
                   04
                 </div>
-                <h3 className="font-heading text-2xl font-bold text-[var(--text-primary)] mb-3">
+                <h3 className="font-heading text-base font-bold text-[var(--text-primary)] mb-1.5">
                   Real-Time Cloud Ledger &amp; Global Analytical Graphs
                 </h3>
                 <p className="font-sans text-sm text-[var(--text-muted)] leading-relaxed">
@@ -382,7 +382,7 @@ export default function MinimalistLandingPage() {
           </div>
 
           <div className="p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] text-center">
-            <p className="font-heading text-lg sm:text-xl font-bold text-[var(--text-primary)] max-w-3xl mx-auto">
+            <p className="font-heading text-sm sm:text-base font-bold text-[var(--text-primary)] max-w-3xl mx-auto">
               From incoming raw materials to outbound dispatches: 100% verified weight, photographic proof on every transaction, and zero operator dependency.
             </p>
           </div>
@@ -393,16 +393,16 @@ export default function MinimalistLandingPage() {
         ───────────────────────────────────────────────────────────── */}
         <section
           id="modules"
-          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-12 sm:py-16 max-w-6xl mx-auto w-full"
+          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-8 sm:py-10 max-w-6xl mx-auto w-full"
         >
           <div className="max-w-3xl mb-6 sm:mb-8">
             <span className="font-mono text-xs uppercase tracking-widest text-[var(--text-muted)] block mb-3">
               SYSTEM MODULES &amp; ARCHITECTURE
             </span>
-            <h2 className="font-heading text-4xl sm:text-5xl font-bold leading-tight text-[var(--text-primary)] mb-6 text-balance">
+            <h2 className="font-heading text-xl sm:text-2xl lg:text-3xl font-bold leading-snug text-[var(--text-primary)] mb-6 text-balance">
               The 6 Pillars of Complete Weighbridge Automation
             </h2>
-            <h3 className="font-heading text-2xl sm:text-3xl font-semibold text-[var(--text-primary)] mb-4">
+            <h3 className="font-heading text-sm sm:text-base font-semibold text-[var(--text-primary)] mb-2">
               Engineered for Zero Tampering, Unmanned Operations &amp; Worldwide Cloud Intelligence.
             </h3>
             <p className="font-sans text-lg text-[var(--text-muted)] leading-relaxed">
@@ -417,7 +417,7 @@ export default function MinimalistLandingPage() {
                 <div className="size-9 rounded-[8px] bg-[var(--olive-wash)] border border-[var(--olive-border)] flex items-center justify-center text-[var(--olive-accent)] mb-5 transition-colors duration-200" aria-hidden="true">
                   <ShieldCheck className="size-4" />
                 </div>
-                <h3 className="font-heading text-xl font-bold text-[var(--text-primary)] mb-2">
+                <h3 className="font-heading text-sm sm:text-base font-bold text-[var(--text-primary)] mb-1.5">
                   100% Anti-Tamper Scale Lock
                 </h3>
                 <p className="font-sans text-sm text-[var(--text-muted)] leading-relaxed">
@@ -438,7 +438,7 @@ export default function MinimalistLandingPage() {
                 <div className="size-9 rounded-[8px] bg-[var(--olive-wash)] border border-[var(--olive-border)] flex items-center justify-center text-[var(--olive-accent)] mb-5 transition-colors duration-200" aria-hidden="true">
                   <Camera className="size-4" />
                 </div>
-                <h3 className="font-heading text-xl font-bold text-[var(--text-primary)] mb-2">
+                <h3 className="font-heading text-sm sm:text-base font-bold text-[var(--text-primary)] mb-1.5">
                   Direct Dispute Imagery
                 </h3>
                 <p className="font-sans text-sm text-[var(--text-muted)] leading-relaxed">
@@ -459,7 +459,7 @@ export default function MinimalistLandingPage() {
                 <div className="size-9 rounded-[8px] bg-[var(--olive-wash)] border border-[var(--olive-border)] flex items-center justify-center text-[var(--olive-accent)] mb-5 transition-colors duration-200" aria-hidden="true">
                   <Scan className="size-4" />
                 </div>
-                <h3 className="font-heading text-xl font-bold text-[var(--text-primary)] mb-2">
+                <h3 className="font-heading text-sm sm:text-base font-bold text-[var(--text-primary)] mb-1.5">
                   Automatic ANPR / OCR
                 </h3>
                 <p className="font-sans text-sm text-[var(--text-muted)] leading-relaxed">
@@ -480,7 +480,7 @@ export default function MinimalistLandingPage() {
                 <div className="size-9 rounded-[8px] bg-[var(--olive-wash)] border border-[var(--olive-border)] flex items-center justify-center text-[var(--olive-accent)] mb-5 transition-colors duration-200" aria-hidden="true">
                   <UserX className="size-4" />
                 </div>
-                <h3 className="font-heading text-xl font-bold text-[var(--text-primary)] mb-2">
+                <h3 className="font-heading text-sm sm:text-base font-bold text-[var(--text-primary)] mb-1.5">
                   Unmanned Center Automation
                 </h3>
                 <p className="font-sans text-sm text-[var(--text-muted)] leading-relaxed">
@@ -501,7 +501,7 @@ export default function MinimalistLandingPage() {
                 <div className="size-9 rounded-[8px] bg-[var(--olive-wash)] border border-[var(--olive-border)] flex items-center justify-center text-[var(--olive-accent)] mb-5 transition-colors duration-200" aria-hidden="true">
                   <Cloud className="size-4" />
                 </div>
-                <h3 className="font-heading text-xl font-bold text-[var(--text-primary)] mb-2">
+                <h3 className="font-heading text-sm sm:text-base font-bold text-[var(--text-primary)] mb-1.5">
                   Real-Time Cloud Ledger
                 </h3>
                 <p className="font-sans text-sm text-[var(--text-muted)] leading-relaxed">
@@ -522,7 +522,7 @@ export default function MinimalistLandingPage() {
                 <div className="size-9 rounded-[8px] bg-[var(--olive-wash)] border border-[var(--olive-border)] flex items-center justify-center text-[var(--olive-accent)] mb-5 transition-colors duration-200" aria-hidden="true">
                   <BarChart3 className="size-4" />
                 </div>
-                <h3 className="font-heading text-xl font-bold text-[var(--text-primary)] mb-2">
+                <h3 className="font-heading text-sm sm:text-base font-bold text-[var(--text-primary)] mb-1.5">
                   Global Analytical Graphs
                 </h3>
                 <p className="font-sans text-sm text-[var(--text-muted)] leading-relaxed">
@@ -540,7 +540,7 @@ export default function MinimalistLandingPage() {
 
           {/* Core Assurance Callout */}
           <div className="p-5 sm:p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)]">
-            <h4 className="font-heading text-2xl font-bold text-[var(--text-primary)] mb-3">
+            <h4 className="font-heading text-base font-bold text-[var(--text-primary)] mb-1.5">
               100% Prevention of Weight Manipulation. Zero Blind Spots.
             </h4>
             <p className="font-sans text-base text-[var(--text-muted)] leading-relaxed mb-4">
@@ -557,16 +557,16 @@ export default function MinimalistLandingPage() {
         ───────────────────────────────────────────────────────────── */}
         <section
           id="live-ledger"
-          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-12 sm:py-16 max-w-6xl mx-auto w-full"
+          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-8 sm:py-10 max-w-6xl mx-auto w-full"
         >
           <div className="max-w-3xl mb-5 sm:mb-6">
             <span className="font-mono text-xs uppercase tracking-widest text-[var(--text-muted)] block mb-2">
               REAL-TIME CLOUD STREAM // INCOMING &amp; OUTGOING WEIGHMENTS
             </span>
-            <h2 className="font-heading text-4xl sm:text-5xl font-bold text-[var(--text-primary)] mb-4 text-balance">
+            <h2 className="font-heading text-xl sm:text-2xl lg:text-3xl font-bold text-[var(--text-primary)] mb-2 text-balance">
               Live Cloud Ledger with Photographic Dispute Audit
             </h2>
-            <p className="font-sans text-base sm:text-lg text-[var(--text-muted)]">
+            <p className="font-sans text-xs sm:text-sm text-[var(--text-muted)]">
               Remotely monitor all incoming raw materials and outgoing product dispatches in real time across all centers—complete with direct scale camera imagery, automatic ANPR validation, and 100% tamper-locked weights.
             </p>
           </div>
@@ -693,16 +693,16 @@ export default function MinimalistLandingPage() {
         ───────────────────────────────────────────────────────────── */}
         <section
           id="calculator"
-          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-12 sm:py-16 max-w-6xl mx-auto w-full"
+          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-8 sm:py-10 max-w-6xl mx-auto w-full"
         >
           <div className="max-w-3xl mb-5 sm:mb-6">
             <span className="font-mono text-xs uppercase tracking-widest text-[var(--text-muted)] block mb-3">
               SAVINGS &amp; INVESTMENT MODEL
             </span>
-            <h2 className="font-heading text-4xl sm:text-5xl font-bold text-[var(--text-primary)] text-balance mb-4">
+            <h2 className="font-heading text-xl sm:text-2xl lg:text-3xl font-bold text-[var(--text-primary)] text-balance mb-4">
               Calculate What Automation Could Save Your Business
             </h2>
-            <p className="font-sans text-base sm:text-lg text-[var(--text-muted)] leading-relaxed mb-3">
+            <p className="font-sans text-xs sm:text-sm text-[var(--text-muted)] leading-relaxed mb-3">
               Every weighbridge facility has a distinct operational footprint. While Gluvok deployment is custom-tailored per site, explore your current operator salary expenditure and see the potential amount that can be saved using Gluvok.
             </p>
             <p className="font-sans text-base text-[var(--text-muted)] leading-relaxed mb-6">
@@ -734,16 +734,16 @@ export default function MinimalistLandingPage() {
         ───────────────────────────────────────────────────────────── */}
         <section
           id="disputes"
-          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-12 sm:py-16 max-w-6xl mx-auto w-full"
+          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-8 sm:py-10 max-w-6xl mx-auto w-full"
         >
           <div className="max-w-3xl mb-6 sm:mb-8">
             <span className="font-mono text-xs uppercase tracking-widest text-[var(--text-muted)] block mb-3">
               PHOTOGRAPHIC DISPUTE PROTOCOL
             </span>
-            <h2 className="font-heading text-4xl sm:text-5xl font-bold leading-tight text-[var(--text-primary)] mb-4 text-balance">
+            <h2 className="font-heading text-xl sm:text-2xl lg:text-3xl font-bold leading-snug text-[var(--text-primary)] mb-4 text-balance">
               Direct Weighbridge Images Resolve Disputes in Under 60 Seconds
             </h2>
-            <p className="font-sans text-base sm:text-lg text-[var(--text-muted)]">
+            <p className="font-sans text-xs sm:text-sm text-[var(--text-muted)]">
               How multi-angle evidentiary snapshots eliminate costly arguments with suppliers, contractors, and transporters:
             </p>
           </div>
@@ -756,7 +756,7 @@ export default function MinimalistLandingPage() {
                   <Badge variant="yellow">Weight Shortage Dispute</Badge>
                   <span className="font-mono text-xs text-[var(--text-muted)]">#TK-101</span>
                 </div>
-                <h3 className="font-heading text-xl font-bold text-[var(--text-primary)] mb-2">
+                <h3 className="font-heading text-sm sm:text-base font-bold text-[var(--text-primary)] mb-1.5">
                   Supplier Claims 32.5 MT vs 29.8 MT Logged
                 </h3>
                 <p className="font-sans text-xs text-[var(--text-muted)] leading-relaxed mb-4">
@@ -778,7 +778,7 @@ export default function MinimalistLandingPage() {
                   <Badge variant="blue">Plate &amp; Truck Swap</Badge>
                   <span className="font-mono text-xs text-[var(--text-muted)]">#TK-102</span>
                 </div>
-                <h3 className="font-heading text-xl font-bold text-[var(--text-primary)] mb-2">
+                <h3 className="font-heading text-sm sm:text-base font-bold text-[var(--text-primary)] mb-1.5">
                   Ghost Trucking &amp; Paper Challan Swap
                 </h3>
                 <p className="font-sans text-xs text-[var(--text-muted)] leading-relaxed mb-4">
@@ -800,7 +800,7 @@ export default function MinimalistLandingPage() {
                   <Badge variant="red">Axle Ramp Manipulation</Badge>
                   <span className="font-mono text-xs text-[var(--text-muted)]">#TK-103</span>
                 </div>
-                <h3 className="font-heading text-xl font-bold text-[var(--text-primary)] mb-2">
+                <h3 className="font-heading text-sm sm:text-base font-bold text-[var(--text-primary)] mb-1.5">
                   Off-Scale Axle Cheating on Tare
                 </h3>
                 <p className="font-sans text-xs text-[var(--text-muted)] leading-relaxed mb-4">
@@ -822,13 +822,13 @@ export default function MinimalistLandingPage() {
         ───────────────────────────────────────────────────────────── */}
         <section
           id="faq"
-          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-12 sm:py-16 max-w-4xl mx-auto w-full"
+          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-8 sm:py-10 max-w-4xl mx-auto w-full"
         >
           <div className="mb-12">
             <span className="font-mono text-xs uppercase tracking-widest text-[var(--text-muted)] block mb-3">
               FREQUENTLY ASKED QUESTIONS
             </span>
-            <h2 className="font-heading text-4xl sm:text-5xl font-bold text-[var(--text-primary)] mb-4 text-balance">
+            <h2 className="font-heading text-xl sm:text-2xl lg:text-3xl font-bold text-[var(--text-primary)] mb-2 text-balance">
               Answers to Key Operational &amp; Automation Questions
             </h2>
           </div>
@@ -895,13 +895,13 @@ export default function MinimalistLandingPage() {
         ───────────────────────────────────────────────────────────── */}
         <section
           id="book-demo"
-          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-12 sm:py-16 max-w-4xl mx-auto w-full"
+          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-8 sm:py-10 max-w-4xl mx-auto w-full"
         >
           <div className="text-center mb-6 sm:mb-8">
             <span className="font-mono text-xs uppercase tracking-widest text-[var(--text-muted)] block mb-3">
               OPERATIONAL SOVEREIGNTY
             </span>
-            <h2 className="font-heading text-4xl sm:text-5xl font-bold text-[var(--text-primary)] leading-tight mb-4 text-balance">
+            <h2 className="font-heading text-xl sm:text-2xl lg:text-3xl font-bold text-[var(--text-primary)] leading-snug mb-4 text-balance">
               Your Weighbridge. Your Data. Your Control.
             </h2>
             <p className="font-sans text-base text-[var(--text-muted)] max-w-2xl mx-auto mb-3">
@@ -915,7 +915,7 @@ export default function MinimalistLandingPage() {
                 Reduce manual dependency. Strengthen accountability. Make decisions with better data.
               </p>
             </div>
-            <h3 className="font-heading text-2xl font-bold text-[var(--text-primary)] mb-2">
+            <h3 className="font-heading text-lg sm:text-xl font-bold text-[var(--text-primary)] mb-2">
               Take the Next Step Toward Autonomous Weighbridge Operations.
             </h3>
             <p className="font-sans text-sm text-[var(--text-muted)] max-w-xl mx-auto mb-4">
@@ -953,7 +953,7 @@ export default function MinimalistLandingPage() {
                 <div className="size-10 rounded-full bg-[var(--olive-wash)] text-[var(--olive-text)] border border-[var(--olive-border)] flex items-center justify-center mx-auto text-xl font-bold transition-colors duration-200" aria-hidden="true">
                   ✓
                 </div>
-                <h3 className="font-heading text-2xl font-bold text-[var(--text-primary)]">
+                <h3 className="font-heading text-lg sm:text-xl font-bold text-[var(--text-primary)]">
                   Consultation Request Received
                 </h3>
                 <p className="font-sans text-sm text-[var(--text-muted)] max-w-md mx-auto">
