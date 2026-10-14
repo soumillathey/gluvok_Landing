@@ -199,7 +199,7 @@ export default function MinimalistLandingPage() {
         <section className="min-h-[calc(100vh-4rem)] flex flex-col justify-center px-6 lg:px-16 py-6 sm:py-8 max-w-6xl mx-auto w-full">
           <div className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-[var(--olive-wash)] border border-[var(--olive-border)] text-[10px] font-sans font-medium text-[var(--olive-text)] mb-2.5 transition-colors duration-200">
             <span className="size-1.5 rounded-full bg-[var(--olive-accent)] inline-block transition-colors duration-200" aria-hidden="true" />
-            UNMANNED WEIGHBRIDGE AUTOMATION // 100% ANTI-TAMPER CLOUD SYSTEM
+            UNMANNED WEIGHBRIDGE AUTOMATION • ANTI-TAMPER CLOUD SYSTEM
           </div>
 
           <h1 className="font-heading font-extrabold text-3xl sm:text-4xl lg:text-[46px] leading-[1.1] tracking-[-0.03em] text-[var(--text-primary)] mb-2.5 max-w-4xl text-balance">
@@ -207,19 +207,16 @@ export default function MinimalistLandingPage() {
           </h1>
 
           <h2 className="font-heading text-base sm:text-lg font-semibold text-[var(--text-primary)] mb-2.5 max-w-3xl">
-            Mitigate On-Site Operator Dependence with Automatic ANPR, Direct Dispute Imagery &amp; Real-Time Cloud Intelligence.
+            Eliminate booth staff dependencies with plate recognition, multi-angle camera evidence, and cloud ledger records.
           </h2>
 
           <p className="font-sans text-xs sm:text-sm text-[var(--text-muted)] leading-relaxed max-w-3xl mb-3.5 font-normal">
-            Traditional weighbridges lose millions to manual weight tampering, operator-driver collusion, billing disputes, and heavy 24/7 staffing costs. Gluvok automates the entire weighing cycle: capturing direct indicator weights, multi-angle dispute photographs, and automatic license plates straight to a global cloud ledger—without requiring operators on-site.
+            Plants lose money to manual weight changes, colluding staff, billing arguments, and recurring shift wages. Gluvok automates weighing at the scale. The system locks indicator readings, takes dispute photos from three angles, and logs vehicle plates into your cloud account without booth attendants.
           </p>
 
           <div className="p-3 sm:p-3.5 rounded-[10px] bg-[var(--olive-wash)] border border-[var(--olive-border)] max-w-3xl mb-4.5 transition-colors duration-200">
             <p className="font-sans text-xs sm:text-sm font-semibold text-[var(--text-primary)] leading-snug">
-              Autonomous Weighing • Direct Scale Evidence • Instant Dispute Settlement • Global Remote Analytics
-            </p>
-            <p className="font-sans text-xs text-[var(--text-muted)] mt-1">
-              Every incoming and outgoing vehicle is automatically identified, photographed on the platform, and permanently recorded to the cloud with zero human intervention.
+              Front cameras read the plate, optical sensors verify scale positioning, and top cameras photograph the cargo bed before logging gross weight.
             </p>
           </div>
 
@@ -257,7 +254,7 @@ export default function MinimalistLandingPage() {
                 100% Lock
               </div>
               <div className="font-sans text-xs text-[var(--text-muted)] mt-1 leading-relaxed">
-                Direct encrypted indicator capture prevents manual keyboard alteration or weight manipulation.
+                Encrypted hardware capture locks indicator serial data. Operators cannot edit or retype digits.
               </div>
             </div>
 
@@ -270,7 +267,7 @@ export default function MinimalistLandingPage() {
                 Direct Images
               </div>
               <div className="font-sans text-xs text-[var(--text-muted)] mt-1 leading-relaxed">
-                Multi-angle camera snapshots of truck, cargo bed, and license plate stored for every weighment.
+                Cameras capture the license plate, driver cabin, and cargo bed during each transaction to settle vendor disputes.
               </div>
             </div>
 
@@ -283,7 +280,7 @@ export default function MinimalistLandingPage() {
                 &lt; 1 Second
               </div>
               <div className="font-sans text-xs text-[var(--text-muted)] mt-1 leading-relaxed">
-                High-speed OCR vehicle recognition eliminates queue bottlenecks and manual typing errors.
+                Optical recognition identifies commercial vehicle plates under one second, through dust, rain, and headlights.
               </div>
             </div>
 
@@ -296,7 +293,7 @@ export default function MinimalistLandingPage() {
                 Global Live
               </div>
               <div className="font-sans text-xs text-[var(--text-muted)] mt-1 leading-relaxed">
-                Real-time incoming/outgoing weighments and visual analytical graphs accessible worldwide.
+                Track inbound raw materials, finished product dispatches, and daily tonnage across all plants from any browser.
               </div>
             </div>
           </div>
@@ -314,10 +311,10 @@ export default function MinimalistLandingPage() {
               OPERATIONAL INTEGRITY &amp; UNMANNED AUTOMATION
             </span>
             <h2 className="font-heading text-xl sm:text-2xl lg:text-3xl font-bold leading-snug text-[var(--text-primary)] mb-6 text-balance">
-              Eliminate Fraud. Mitigate Operators. Gain Total Cloud Visibility.
+              Stop Inventory Shrinkage. Cut Booth Shifts. See Scale Operations Live.
             </h2>
             <p className="font-sans text-xs sm:text-sm text-[var(--text-muted)] leading-relaxed">
-              Manual weighbridge booths are the single largest source of inventory leakage, billing disputes, and recurring shift payroll. Gluvok replaces vulnerable manual intervention with autonomous, tamper-proof industrial automation.
+              Weighbridge cabins lose inventory to inaccurate entries, collusion, and high shift payroll. Gluvok replaces booth paperwork with automated scale controls.
             </p>
           </div>
 
@@ -331,7 +328,7 @@ export default function MinimalistLandingPage() {
                   100% Prevention of Weight Manipulation
                 </h3>
                 <p className="font-sans text-sm text-[var(--text-muted)] leading-relaxed">
-                  Stop tare tampering, axle lifting, off-scale positioning, and manual slip alteration permanently. Gluvok locks directly to digital indicator signals via encrypted pipelines and only accepts stable readings when optical platform sensors verify complete vehicle occupancy. Operators cannot overwrite a single digit.
+                  Stop tare manipulation, axle lifting, off-scale positioning, and altered paper slips. Gluvok connects straight to digital indicator ports and accepts readings only when optical sensors confirm the truck sits entirely on the platform. Staff cannot overwrite numbers.
                 </p>
               </div>
             </div>
@@ -345,7 +342,7 @@ export default function MinimalistLandingPage() {
                   Mitigate the Need for On-Site Operators
                 </h3>
                 <p className="font-sans text-sm text-[var(--text-muted)] leading-relaxed">
-                  Transform continuous 24/7 weighbridge centers into autonomous, unmanned stations. Automated boom barriers, smart traffic lights, bilingual voice guidance, and driver self-service kiosks guide trucks through weighing in under 30 seconds—slashing 60% to 80% of routine staffing overhead.
+                  Convert round-the-clock weighbridge stations into drive-through lanes. Boom barriers, traffic lights, bilingual voice prompts, and touch kiosks guide drivers across the scale in under 30 seconds. Most plants lower staffing costs by 60% to 80%.
                 </p>
               </div>
             </div>
@@ -359,7 +356,7 @@ export default function MinimalistLandingPage() {
                   Direct Weighbridge Images for Every Dispute
                 </h3>
                 <p className="font-sans text-sm text-[var(--text-muted)] leading-relaxed">
-                  End arguments with suppliers, contractors, and transporters instantly. Every single weighment transaction automatically embeds high-resolution camera images of the front vehicle plate, overhead cargo bed load, and rear axle position—permanently stored on the cloud and printed on slips as indisputable evidence.
+                  Settle weight arguments with vendors and transport fleets on the spot. Each weighment records camera frames of the license plate, open cargo bed, and rear axle position. You can pull up the photos in your cloud portal or print them on delivery challans.
                 </p>
               </div>
             </div>
@@ -373,7 +370,7 @@ export default function MinimalistLandingPage() {
                   Real-Time Cloud Ledger &amp; Global Analytical Graphs
                 </h3>
                 <p className="font-sans text-sm text-[var(--text-muted)] leading-relaxed">
-                  Monitor all incoming raw materials and outgoing finished dispatches live in the cloud. Access real-time executive dashboards with tonnage throughput graphs, turnaround time analytics, and tamper alerts securely from any browser, smartphone, or corporate headquarters anywhere in the world.
+                  Track incoming materials and outgoing product shipments in real time. Executive dashboards show daily tonnage, vehicle turnaround times, and scale alerts from your phone or desktop.
                 </p>
               </div>
             </div>
@@ -381,7 +378,7 @@ export default function MinimalistLandingPage() {
 
           <div className="p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] text-center">
             <p className="font-heading text-sm sm:text-base font-bold text-[var(--text-primary)] max-w-3xl mx-auto">
-              From incoming raw materials to outbound dispatches: 100% verified weight, photographic proof on every transaction, and zero operator dependency.
+              From inbound raw materials to outbound dispatches: verified indicator weights, photo proof for each ticket, and zero manual typing.
             </p>
           </div>
         </section>
@@ -461,7 +458,7 @@ export default function MinimalistLandingPage() {
                   Automatic ANPR / OCR
                 </h3>
                 <p className="font-sans text-sm text-[var(--text-muted)] leading-relaxed">
-                  High-speed neural optical engine reads commercial plates in under 1 second—even with dirt, dust, or night illumination—auto-linking ERP delivery orders without manual typing.
+                  Plate cameras read commercial registration numbers in under one second, through dust, rain, and glare. The system links incoming trucks to your ERP delivery orders with no typing.
                 </p>
               </div>
               <div className="mt-6 pt-4 border-t border-[var(--border-hairline)] flex items-center justify-between">
@@ -482,7 +479,7 @@ export default function MinimalistLandingPage() {
                   Unmanned Center Automation
                 </h3>
                 <p className="font-sans text-sm text-[var(--text-muted)] leading-relaxed">
-                  Mitigate on-site operator dependence completely. Automated boom barriers, bilingual voice guidance, and driver self-service kiosks manage full weighments without a booth attendant.
+                  Run stations without booth staff. Boom barriers, bilingual speakers, and touch kiosks handle the entire weighing sequence from vehicle entry to slip printing.
                 </p>
               </div>
               <div className="mt-6 pt-4 border-t border-[var(--border-hairline)] flex items-center justify-between">
@@ -503,7 +500,7 @@ export default function MinimalistLandingPage() {
                   Real-Time Cloud Ledger
                 </h3>
                 <p className="font-sans text-sm text-[var(--text-muted)] leading-relaxed">
-                  Every inbound raw material load and outbound dispatch streams to the central cloud instantly. Automated SMS/WhatsApp receipts and ERP webhooks broadcast verified data in real time.
+                  Scale transactions sync to your central database the moment a truck clears the platform. The system sends WhatsApp or SMS receipts to suppliers and triggers ERP inventory updates.
                 </p>
               </div>
               <div className="mt-6 pt-4 border-t border-[var(--border-hairline)] flex items-center justify-between">
@@ -524,7 +521,7 @@ export default function MinimalistLandingPage() {
                   Global Analytical Graphs
                 </h3>
                 <p className="font-sans text-sm text-[var(--text-muted)] leading-relaxed">
-                  Remotely accessible worldwide. Visual graphs tracking daily tonnage throughput, turnaround times (TAT), commodity distribution, and automated anomaly alerts across all facilities.
+                  Track daily tonnage, turnaround times, and scale alerts across all your facilities from a single online dashboard.
                 </p>
               </div>
               <div className="mt-6 pt-4 border-t border-[var(--border-hairline)] flex items-center justify-between">
@@ -539,13 +536,13 @@ export default function MinimalistLandingPage() {
           {/* Core Assurance Callout */}
           <div className="p-5 sm:p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)]">
             <h4 className="font-heading text-base font-bold text-[var(--text-primary)] mb-1.5">
-              100% Prevention of Weight Manipulation. Zero Blind Spots.
+              Direct Scale Verification for Every Load
             </h4>
-            <p className="font-sans text-base text-[var(--text-muted)] leading-relaxed mb-4">
-              Gluvok bridges the physical weighbridge and the digital executive office. By combining hardware-locked indicator reads, automatic ANPR, multi-angle camera snapshots, and unmanned driver kiosks, every kilogram entering or exiting your plant is verified with mathematical and visual proof.
+            <p className="font-sans text-sm text-[var(--text-muted)] leading-relaxed mb-3">
+              Gluvok connects directly to your digital weight indicator. Cameras photograph the vehicle and license plate while sensors confirm truck positioning. You get verified weights and clear photographic records for every shipment entering or leaving your plant.
             </p>
-            <p className="font-sans text-base font-semibold text-[var(--text-primary)]">
-              No manual slip overwriting. No operator bias. No unresolved disputes. Just clean, tamper-proof operational truth streaming live to your cloud.
+            <p className="font-sans text-sm font-semibold text-[var(--text-primary)]">
+              Scale numbers stay locked. Photos stay attached to slips. Disputes get resolved with hard evidence.
             </p>
           </div>
         </section>
@@ -565,7 +562,7 @@ export default function MinimalistLandingPage() {
               Live Cloud Ledger with Photographic Dispute Audit
             </h2>
             <p className="font-sans text-xs sm:text-sm text-[var(--text-muted)]">
-              Remotely monitor all incoming raw materials and outgoing product dispatches in real time across all centers—complete with direct scale camera imagery, automatic ANPR validation, and 100% tamper-locked weights.
+              Monitor raw material arrivals and product shipments in real time. Each entry includes camera snapshots, plate readings, and scale weights.
             </p>
           </div>
 
@@ -700,11 +697,8 @@ export default function MinimalistLandingPage() {
             <h2 className="font-heading text-xl sm:text-2xl lg:text-3xl font-bold text-[var(--text-primary)] text-balance mb-4">
               Calculate What Automation Could Save Your Business
             </h2>
-            <p className="font-sans text-xs sm:text-sm text-[var(--text-muted)] leading-relaxed mb-3">
-              Every weighbridge facility has a distinct operational footprint. While Gluvok deployment is custom-tailored per site, explore your current operator salary expenditure and see the potential amount that can be saved using Gluvok.
-            </p>
-            <p className="font-sans text-base text-[var(--text-muted)] leading-relaxed mb-6">
-              We have not set a fixed automation price because hardware requirements (cameras, indicators, boom barriers) vary by station. Enter your shift count and operator salaries below to review your recurring staffing costs and potential savings.
+            <p className="font-sans text-xs sm:text-sm text-[var(--text-muted)] leading-relaxed mb-4">
+              Hardware configurations vary by station. Enter your shift count and operator salaries below to review your recurring payroll and see what automation could save your facility.
             </p>
             <div className="flex flex-wrap items-center gap-3">
               <Button
@@ -742,7 +736,7 @@ export default function MinimalistLandingPage() {
               Direct Weighbridge Images Resolve Disputes in Under 60 Seconds
             </h2>
             <p className="font-sans text-xs sm:text-sm text-[var(--text-muted)]">
-              How multi-angle evidentiary snapshots eliminate costly arguments with suppliers, contractors, and transporters:
+              How photographic snapshots settle weight arguments with suppliers, contractors, and transporters:
             </p>
           </div>
 
@@ -761,7 +755,7 @@ export default function MinimalistLandingPage() {
                   <strong>Logged Dispute:</strong> Inbound scrap supplier claimed full 32.5 MT dispatch and disputed the lower receiver weighment slip.
                 </p>
                 <div className="p-3 rounded-[6px] bg-[#F9F9F8] border border-[var(--border-hairline)] font-sans text-xs text-[var(--text-primary)]">
-                  <strong>Direct Image Proof:</strong> High-resolution top-down camera photo revealed cargo bed was only 75% full upon platform arrival. Stamped watermarked image dismissed claim immediately.
+                  <strong>Direct Image Proof:</strong> Top-down camera photo showed cargo bed was only 75% full upon arrival. Stamped, watermarked image settled the claim on the spot.
                 </div>
               </div>
               <div className="mt-6 pt-3 border-t border-[var(--border-hairline)] text-xs font-mono text-[var(--olive-text)] transition-colors duration-200">
@@ -783,7 +777,7 @@ export default function MinimalistLandingPage() {
                   <strong>Logged Dispute:</strong> Driver attempted to use a forged paper challan for a different heavier truck to claim unauthorized payout.
                 </p>
                 <div className="p-3 rounded-[6px] bg-[#F9F9F8] border border-[var(--border-hairline)] font-sans text-xs text-[var(--text-primary)]">
-                  <strong>Direct Image Proof:</strong> Automatic ANPR recognized actual vehicle plate within 800ms; cabin photo captured driver face. System auto-locked barrier and alerted manager dashboard.
+                  <strong>Direct Image Proof:</strong> Plate camera identified the vehicle in 800ms. Cabin photo captured the driver. The system kept the barrier down and notified the scale manager.
                 </div>
               </div>
               <div className="mt-6 pt-3 border-t border-[var(--border-hairline)] text-xs font-mono text-[var(--olive-text)] transition-colors duration-200">
@@ -805,7 +799,7 @@ export default function MinimalistLandingPage() {
                   <strong>Logged Dispute:</strong> Driver stopped with rear wheels partially on approach ramp to artificially lower tare weight by 1,200 kg.
                 </p>
                 <div className="p-3 rounded-[6px] bg-[#F9F9F8] border border-[var(--border-hairline)] font-sans text-xs text-[var(--text-primary)]">
-                  <strong>Direct Image Proof:</strong> Optical wheel sensors and rear camera detected tire overhang. Weight capture was blocked; bilingual voice instruction instructed driver to pull forward.
+                  <strong>Direct Image Proof:</strong> Wheel sensors and rear camera detected tire overhang. The system blocked weight capture and voice prompts instructed the driver to pull forward.
                 </div>
               </div>
               <div className="mt-6 pt-3 border-t border-[var(--border-hairline)] text-xs font-mono text-[var(--olive-text)] transition-colors duration-200">
@@ -837,7 +831,7 @@ export default function MinimalistLandingPage() {
                 How does Gluvok guarantee 100% prevention against weight manipulation?
               </AccordionTrigger>
               <AccordionContent>
-                Gluvok establishes a direct, encrypted hardware communication channel with your scale indicator (supporting Mettler-Toledo, Avery Weigh-Tronix, Cardinal, Essae, and all digital indicators). Weight is captured only when positioning IR sensors confirm the truck is 100% on the platform and scale readings have stabilized. Manual typing, back-end SQL tampering, and operator overrides are cryptographically locked out.
+                Gluvok connects directly to the digital indicator serial port (supporting Mettler-Toledo, Avery Weigh-Tronix, Essae, and Cardinal). Weight records only after infrared positioning sensors verify the entire truck sits on the platform and scale readings stabilize. Operators cannot retype or overwrite digits.
               </AccordionContent>
             </AccordionItem>
 
@@ -846,7 +840,7 @@ export default function MinimalistLandingPage() {
                 How are weighbridge camera images captured and used to resolve disputes?
               </AccordionTrigger>
               <AccordionContent>
-                The exact millisecond the weight settles, Gluvok automatically triggers high-resolution IP cameras capturing front vehicle license plate, top-down cargo bed load, and rear axle position. These timestamped photos are embedded directly on the digital receipt and permanently archived in the cloud. If any supplier or transporter questions tonnage, management can pull up photographic evidence within seconds.
+                When the weight stabilizes, Gluvok triggers cameras capturing the license plate, open cargo bed, and rear axles. These photos attach to the digital receipt and upload to your cloud account. If a vendor disputes a shortage, you can pull up the timestamped photo in seconds.
               </AccordionContent>
             </AccordionItem>
 
@@ -855,16 +849,16 @@ export default function MinimalistLandingPage() {
                 How does Automatic ANPR perform in dusty industrial environments?
               </AccordionTrigger>
               <AccordionContent>
-                Our neural ANPR optical engine is specifically trained on commercial truck number plates across heavy industrial environments (cement plants, mines, grain hubs). It utilizes specialized ANPR cameras with adaptive IR illumination that accurately read embossed, painted, high-security, dirty, or damaged plates in sub-second time, day or night.
+                The cameras use infrared illumination calibrated for industrial dust, rain, and glare. The optical engine reads embossed, painted, high-security, or dirty plates in under one second, day or night.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="faq-4">
               <AccordionTrigger>
-                Can Gluvok really run our weighbridge completely unmanned without operators?
+                Can Gluvok run a weighbridge unmanned without operators?
               </AccordionTrigger>
               <AccordionContent>
-                Yes. Gluvok integrates automated boom barriers, traffic signals, bilingual voice instructions, and rugged driver self-service kiosks. The driver simply pulls onto the scale, the ANPR camera verifies the vehicle, weight settles automatically, barriers open, and a digital QR receipt is generated. Facilities can eliminate 60% to 80% of manual operator staffing while running 24/7.
+                Yes. Gluvok integrates boom barriers, traffic signals, bilingual voice guidance, and driver kiosks. Drivers pull onto the platform, cameras verify the plate, the scale logs the weight, and the kiosk prints a slip or sends a QR receipt. Most facilities cut operator payroll by 60% to 80%.
               </AccordionContent>
             </AccordionItem>
 
@@ -873,7 +867,7 @@ export default function MinimalistLandingPage() {
                 How do the real-time cloud ledger and global analytical graphs work?
               </AccordionTrigger>
               <AccordionContent>
-                Every weighment across all your facilities synchronizes instantly to your secure cloud dashboard. Plant owners and corporate executives can log in from anywhere in the world on a phone, tablet, or PC to view live incoming/outgoing tonnage, turnaround times (TAT), supplier yield analysis, and automated alerts for weight variances.
+                Scale records upload to your cloud account as soon as trucks finish weighing. Plant owners and managers can sign in from a phone, tablet, or laptop to view tonnage trends, turnaround times, and scale alerts across all sites.
               </AccordionContent>
             </AccordionItem>
 
@@ -882,7 +876,7 @@ export default function MinimalistLandingPage() {
                 What happens if internet connectivity drops at a remote plant?
               </AccordionTrigger>
               <AccordionContent>
-                Gluvok operates with dual-mode edge computing. If the local internet drops, the on-site edge controller continues to run unmanned weighments, capture ANPR, lock anti-tamper weights, and save camera images locally without interruption. The moment internet connectivity restores, all queued transactions automatically synchronize to the central cloud ledger.
+                The local industrial edge controller continues running weighments, reading plates, and saving photos offline. Once internet reconnects, all queued transactions sync to the cloud automatically.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
@@ -897,27 +891,24 @@ export default function MinimalistLandingPage() {
         >
           <div className="text-center mb-6 sm:mb-8">
             <span className="font-mono text-xs uppercase tracking-widest text-[var(--text-muted)] block mb-3">
-              OPERATIONAL SOVEREIGNTY
+              OPERATIONAL AUDIT &amp; DEMO
             </span>
             <h2 className="font-heading text-xl sm:text-2xl lg:text-3xl font-bold text-[var(--text-primary)] leading-snug mb-4 text-balance">
-              Your Weighbridge. Your Data. Your Control.
+              Audit Your Weighbridge Operations
             </h2>
-            <p className="font-sans text-base text-[var(--text-muted)] max-w-2xl mx-auto mb-3">
-              You should not have to depend entirely on manual records to understand your own operations.
+            <p className="font-sans text-sm text-[var(--text-muted)] max-w-2xl mx-auto mb-4">
+              Weighbridge operations should be transparent. Gluvok connects physical scale hardware, vehicle cameras, and digital records into one clear workflow.
             </p>
-            <p className="font-sans text-base text-[var(--text-muted)] max-w-2xl mx-auto mb-6">
-              With Gluvok, your facility can move toward a connected weighing workflow where vehicle identification, weight capture, digital records, and camera monitoring work together.
-            </p>
-            <div className="p-4 rounded-[8px] bg-[var(--olive-wash)] border border-[var(--olive-border)] max-w-xl mx-auto mb-5">
-              <p className="font-heading text-base font-bold text-[var(--text-primary)]">
-                Reduce manual dependency. Strengthen accountability. Make decisions with better data.
+            <div className="p-3.5 rounded-[8px] bg-[var(--olive-wash)] border border-[var(--olive-border)] max-w-xl mx-auto mb-5">
+              <p className="font-heading text-sm font-bold text-[var(--text-primary)]">
+                Cut booth shift costs. Lock scale numbers. Settle vendor disputes with photographic records.
               </p>
             </div>
-            <h3 className="font-heading text-lg sm:text-xl font-bold text-[var(--text-primary)] mb-2">
-              Take the Next Step Toward Autonomous Weighbridge Operations.
+            <h3 className="font-heading text-base sm:text-lg font-bold text-[var(--text-primary)] mb-1.5">
+              Request an Operational Walkthrough
             </h3>
-            <p className="font-sans text-sm text-[var(--text-muted)] max-w-xl mx-auto mb-4">
-              Discover how Gluvok can help your facility reduce recurring costs, improve transaction traceability, and modernize weighbridge management.
+            <p className="font-sans text-xs sm:text-sm text-[var(--text-muted)] max-w-xl mx-auto mb-4">
+              Tell us about your facility. We will show you how the hardware connects to your indicators and calculate your potential savings.
             </p>
             <div className="flex flex-wrap items-center justify-center gap-3">
               <Button
@@ -1050,7 +1041,7 @@ export default function MinimalistLandingPage() {
               </div>
             </div>
             <p className="font-sans text-xs text-[var(--text-muted)] max-w-sm italic">
-              Gluvok — Intelligent Weighbridge Automation by Lathey Weigh Trix.
+              Gluvok: Intelligent Weighbridge Automation by Lathey Weigh Trix.
             </p>
           </div>
 

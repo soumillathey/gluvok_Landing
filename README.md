@@ -171,3 +171,12 @@ The landing page centers on 6 core industrial pillars:
 6. **Global Remote Access & Analytical Graphs**:
    - Worldwide cloud control tower accessible from any smartphone, tablet, or PC.
    - Visual analytical graphs tracking daily tonnage throughput, turnaround times (TAT), and anomaly detection.
+
+
+## Editorial Guidelines: Stop Slop (.agents/skills/stop-slop)
+
+All copy across the landing page adheres to the **Stop Slop** prose methodology (by Hardik Pandya):
+- **Zero AI Throat-Clearing**: Cut openers like "Here's why", "It turns out", "The truth is".
+- **Zero Business Jargon & Adverbs**: Eliminated buzzwords ("game-changer", "lean into", "deep dive") and adverbs ("really", "just", "literally", "completely", "permanently").
+- **Zero Em Dashes**: Replaced all em dashes (—) with direct commas or concise periods.
+- **Active Voice & Grounded Specifics**: Replaced passive constructions and corporate slogans with direct, active descriptions of physical industrial hardware, sensors, and operational flows.
