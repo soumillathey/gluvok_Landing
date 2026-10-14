@@ -70,12 +70,12 @@ export function RoiCalculator({
   return (
     <div
       id="roi-calculator"
-      className={`rounded-[12px] border border-[var(--border-hairline)] bg-[var(--surface-card)] p-6 sm:p-8 lg:p-10 shadow-sm transition-all ${className}`}
+      className={`rounded-[12px] border border-[var(--border-hairline)] bg-[var(--surface-card)] p-5 sm:p-6 lg:p-7 shadow-sm transition-all ${className}`}
     >
       {/* ─────────────────────────────────────────────────────────────
           1. HEADER STRIP (Clean & Matches Site Aesthetic)
       ───────────────────────────────────────────────────────────── */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-[var(--border-hairline)] mb-8">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-[var(--border-hairline)] mb-5">
         <div>
           <div className="flex flex-wrap items-center gap-2 mb-1.5">
             <h3 className="font-heading font-extrabold text-2xl tracking-tight text-[var(--text-primary)]">
@@ -103,9 +103,9 @@ export function RoiCalculator({
       {/* ─────────────────────────────────────────────────────────────
           2. 2-COLUMN LAYOUT (Operational Inputs vs Hero Comparison)
       ───────────────────────────────────────────────────────────── */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
         {/* LEFT COLUMN: 4 Operational Staffing Inputs (5 Cols) */}
-        <div className="lg:col-span-5 space-y-6">
+        <div className="lg:col-span-5 space-y-4 sm:space-y-4.5">
           {/* Input 1: Operators per Shift */}
           <div>
             <div className="flex justify-between items-center mb-2">
@@ -331,12 +331,12 @@ export function RoiCalculator({
         </div>
 
         {/* RIGHT COLUMN: Results & Visual Comparison (7 Cols) */}
-        <div className="lg:col-span-7 space-y-5">
+        <div className="lg:col-span-7 space-y-4">
           {/* ─────────────────────────────────────────────────────────────
               HERO CARD: Current Salary Amount ------------> Potential Saved Using Gluvok
           ───────────────────────────────────────────────────────────── */}
-          <div className="p-6 sm:p-7 rounded-[12px] bg-[var(--olive-wash)] border-2 border-[var(--olive-border)] transition-colors shadow-xs">
-            <div className="flex flex-wrap items-center justify-between gap-2 pb-4 mb-5 border-b border-[var(--olive-border)]">
+          <div className="p-5 sm:p-6 rounded-[12px] bg-[var(--olive-wash)] border-2 border-[var(--olive-border)] transition-colors shadow-xs">
+            <div className="flex flex-wrap items-center justify-between gap-2 pb-3 mb-4 border-b border-[var(--olive-border)]">
               <div className="flex items-center gap-2">
                 <Sparkles className="size-4 text-[var(--olive-accent)]" />
                 <span className="font-mono text-xs uppercase tracking-wider font-bold text-[var(--olive-text)]">
@@ -429,7 +429,7 @@ export function RoiCalculator({
             </div>
 
             {/* Transparent Note on Automation Pricing */}
-            <div className="mt-5 pt-4 border-t border-[var(--olive-border)] text-xs font-sans text-[var(--text-muted)] leading-relaxed flex items-start gap-2">
+            <div className="mt-4 pt-3 border-t border-[var(--olive-border)] text-xs font-sans text-[var(--text-muted)] leading-relaxed flex items-start gap-2">
               <Info className="size-4 shrink-0 mt-0.5 text-[var(--olive-accent)]" />
               <p>
                 <strong>Pricing Transparency:</strong> We have not set a fixed automation price. Gluvok deployment and software licensing are tailored to your weighbridge stations, indicator models, barrier integration, and camera count. The figures above reflect your current operator salary spend and the potential savings unlocked by Gluvok automation.

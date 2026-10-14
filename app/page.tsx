@@ -196,34 +196,34 @@ export default function MinimalistLandingPage() {
         {/* ─────────────────────────────────────────────────────────────
             2. HERO SECTION (Editorial Serif Heading + Clean Sans Body)
         ───────────────────────────────────────────────────────────── */}
-                <section className="px-6 lg:px-16 pt-24 pb-28 max-w-6xl mx-auto w-full">
-          <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-[var(--olive-wash)] border border-[var(--olive-border)] text-[11px] font-sans font-medium text-[var(--olive-text)] mb-8 transition-colors duration-200">
+                <section className="px-6 lg:px-16 pt-10 sm:pt-14 pb-12 sm:pb-16 max-w-6xl mx-auto w-full">
+          <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-[var(--olive-wash)] border border-[var(--olive-border)] text-[11px] font-sans font-medium text-[var(--olive-text)] mb-4 transition-colors duration-200">
             <span className="size-1.5 rounded-full bg-[var(--olive-accent)] inline-block transition-colors duration-200" aria-hidden="true" />
             UNMANNED WEIGHBRIDGE AUTOMATION // 100% ANTI-TAMPER CLOUD SYSTEM
           </div>
 
-          <h1 className="font-heading font-extrabold text-5xl sm:text-7xl lg:text-[76px] leading-[1.08] tracking-[-0.03em] text-[var(--text-primary)] mb-6 max-w-4xl text-balance">
+          <h1 className="font-heading font-extrabold text-4xl sm:text-6xl lg:text-[68px] leading-[1.08] tracking-[-0.03em] text-[var(--text-primary)] mb-3 max-w-4xl text-balance">
             100% Prevention on Weight Manipulation. Zero Operator Fraud.
           </h1>
 
-          <h2 className="font-heading text-2xl sm:text-3xl font-bold text-[var(--text-primary)] mb-6 max-w-3xl">
+          <h2 className="font-heading text-xl sm:text-2xl font-bold text-[var(--text-primary)] mb-3 max-w-3xl">
             Mitigate On-Site Operator Dependence with Automatic ANPR, Direct Dispute Imagery &amp; Real-Time Cloud Intelligence.
           </h2>
 
-          <p className="font-sans text-lg sm:text-xl text-[var(--text-muted)] leading-relaxed max-w-3xl mb-8 font-normal">
+          <p className="font-sans text-base sm:text-lg text-[var(--text-muted)] leading-relaxed max-w-3xl mb-4 font-normal">
             Traditional weighbridges lose millions to manual weight tampering, operator-driver collusion, billing disputes, and heavy 24/7 staffing costs. Gluvok automates the entire weighing cycle: capturing direct indicator weights, multi-angle dispute photographs, and automatic license plates straight to a global cloud ledger—without requiring operators on-site.
           </p>
 
-          <div className="p-6 rounded-[12px] bg-[var(--olive-wash)] border border-[var(--olive-border)] max-w-3xl mb-10 transition-colors duration-200">
-            <p className="font-sans text-base sm:text-lg font-semibold text-[var(--text-primary)] leading-relaxed">
+          <div className="p-4 sm:p-5 rounded-[12px] bg-[var(--olive-wash)] border border-[var(--olive-border)] max-w-3xl mb-6 transition-colors duration-200">
+            <p className="font-sans text-sm sm:text-base font-semibold text-[var(--text-primary)] leading-relaxed">
               Autonomous Weighing. Direct Scale Evidence. Instant Dispute Settlement. Global Remote Analytics.
             </p>
-            <p className="font-sans text-sm text-[var(--text-muted)] mt-2">
+            <p className="font-sans text-xs sm:text-sm text-[var(--text-muted)] mt-1.5">
               Every incoming and outgoing vehicle is automatically identified, photographed on the platform, and permanently recorded to the cloud with zero human intervention.
             </p>
           </div>
 
-          <div className="flex flex-wrap items-center gap-4 mb-20">
+          <div className="flex flex-wrap items-center gap-3.5 mb-8 sm:mb-10">
             <Button
               size="lg"
               className="text-sm font-semibold"
@@ -249,8 +249,8 @@ export default function MinimalistLandingPage() {
           </div>
 
           {/* 4 Metric Bento Cards */}
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-            <div className="p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)]">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3.5 sm:gap-4">
+            <div className="p-4 sm:p-5 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)]">
               <div className="flex items-center gap-2 mb-2 text-[var(--olive-accent)]">
                 <ShieldCheck className="size-4" />
                 <span className="font-mono text-xs uppercase tracking-wider font-semibold">ANTI-TAMPER</span>
@@ -263,7 +263,7 @@ export default function MinimalistLandingPage() {
               </div>
             </div>
 
-            <div className="p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)]">
+            <div className="p-4 sm:p-5 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)]">
               <div className="flex items-center gap-2 mb-2 text-[var(--olive-accent)]">
                 <Camera className="size-4" />
                 <span className="font-mono text-xs uppercase tracking-wider font-semibold">DISPUTE PROOF</span>
@@ -276,7 +276,7 @@ export default function MinimalistLandingPage() {
               </div>
             </div>
 
-            <div className="p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)]">
+            <div className="p-4 sm:p-5 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)]">
               <div className="flex items-center gap-2 mb-2 text-[var(--olive-accent)]">
                 <Scan className="size-4" />
                 <span className="font-mono text-xs uppercase tracking-wider font-semibold">AUTOMATIC ANPR</span>
@@ -289,7 +289,7 @@ export default function MinimalistLandingPage() {
               </div>
             </div>
 
-            <div className="p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)]">
+            <div className="p-4 sm:p-5 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)]">
               <div className="flex items-center gap-2 mb-2 text-[var(--olive-accent)]">
                 <Cloud className="size-4" />
                 <span className="font-mono text-xs uppercase tracking-wider font-semibold">CLOUD &amp; ANALYTICS</span>
@@ -309,9 +309,9 @@ export default function MinimalistLandingPage() {
         ───────────────────────────────────────────────────────────── */}
         <section
           id="why-gluvok"
-          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-28 max-w-6xl mx-auto w-full"
+          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-12 sm:py-16 max-w-6xl mx-auto w-full"
         >
-          <div className="max-w-3xl mb-16">
+          <div className="max-w-3xl mb-6 sm:mb-8">
             <span className="font-mono text-xs uppercase tracking-widest text-[var(--text-muted)] block mb-3">
               OPERATIONAL INTEGRITY &amp; UNMANNED AUTOMATION
             </span>
@@ -323,8 +323,8 @@ export default function MinimalistLandingPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-            <div className="p-8 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5 mb-6 sm:mb-8">
+            <div className="p-5 sm:p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
               <div>
                 <div className="size-8 rounded-[6px] bg-[var(--olive-wash)] border border-[var(--olive-border)] flex items-center justify-center font-mono text-xs font-bold text-[var(--olive-text)] mb-6 tabular-nums" aria-hidden="true">
                   01
@@ -338,7 +338,7 @@ export default function MinimalistLandingPage() {
               </div>
             </div>
 
-            <div className="p-8 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
+            <div className="p-5 sm:p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
               <div>
                 <div className="size-8 rounded-[6px] bg-[var(--olive-wash)] border border-[var(--olive-border)] flex items-center justify-center font-mono text-xs font-bold text-[var(--olive-text)] mb-6 tabular-nums" aria-hidden="true">
                   02
@@ -352,7 +352,7 @@ export default function MinimalistLandingPage() {
               </div>
             </div>
 
-            <div className="p-8 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
+            <div className="p-5 sm:p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
               <div>
                 <div className="size-8 rounded-[6px] bg-[var(--olive-wash)] border border-[var(--olive-border)] flex items-center justify-center font-mono text-xs font-bold text-[var(--olive-text)] mb-6 tabular-nums" aria-hidden="true">
                   03
@@ -366,7 +366,7 @@ export default function MinimalistLandingPage() {
               </div>
             </div>
 
-            <div className="p-8 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
+            <div className="p-5 sm:p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
               <div>
                 <div className="size-8 rounded-[6px] bg-[var(--olive-wash)] border border-[var(--olive-border)] flex items-center justify-center font-mono text-xs font-bold text-[var(--olive-text)] mb-6 tabular-nums" aria-hidden="true">
                   04
@@ -393,9 +393,9 @@ export default function MinimalistLandingPage() {
         ───────────────────────────────────────────────────────────── */}
         <section
           id="modules"
-          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-28 max-w-6xl mx-auto w-full"
+          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-12 sm:py-16 max-w-6xl mx-auto w-full"
         >
-          <div className="max-w-3xl mb-16">
+          <div className="max-w-3xl mb-6 sm:mb-8">
             <span className="font-mono text-xs uppercase tracking-widest text-[var(--text-muted)] block mb-3">
               SYSTEM MODULES &amp; ARCHITECTURE
             </span>
@@ -410,9 +410,9 @@ export default function MinimalistLandingPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 mb-6 sm:mb-8">
             {/* 1. 100% Anti-Tamper Weight Lock */}
-            <div className="p-8 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
+            <div className="p-5 sm:p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
               <div>
                 <div className="size-9 rounded-[8px] bg-[var(--olive-wash)] border border-[var(--olive-border)] flex items-center justify-center text-[var(--olive-accent)] mb-5 transition-colors duration-200" aria-hidden="true">
                   <ShieldCheck className="size-4" />
@@ -433,7 +433,7 @@ export default function MinimalistLandingPage() {
             </div>
 
             {/* 2. Direct Weighbridge Dispute Imagery */}
-            <div className="p-8 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
+            <div className="p-5 sm:p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
               <div>
                 <div className="size-9 rounded-[8px] bg-[var(--olive-wash)] border border-[var(--olive-border)] flex items-center justify-center text-[var(--olive-accent)] mb-5 transition-colors duration-200" aria-hidden="true">
                   <Camera className="size-4" />
@@ -454,7 +454,7 @@ export default function MinimalistLandingPage() {
             </div>
 
             {/* 3. Automatic High-Speed ANPR */}
-            <div className="p-8 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
+            <div className="p-5 sm:p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
               <div>
                 <div className="size-9 rounded-[8px] bg-[var(--olive-wash)] border border-[var(--olive-border)] flex items-center justify-center text-[var(--olive-accent)] mb-5 transition-colors duration-200" aria-hidden="true">
                   <Scan className="size-4" />
@@ -475,7 +475,7 @@ export default function MinimalistLandingPage() {
             </div>
 
             {/* 4. Unmanned Center Driver Automation */}
-            <div className="p-8 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
+            <div className="p-5 sm:p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
               <div>
                 <div className="size-9 rounded-[8px] bg-[var(--olive-wash)] border border-[var(--olive-border)] flex items-center justify-center text-[var(--olive-accent)] mb-5 transition-colors duration-200" aria-hidden="true">
                   <UserX className="size-4" />
@@ -496,7 +496,7 @@ export default function MinimalistLandingPage() {
             </div>
 
             {/* 5. Real-Time Inbound & Outbound Cloud Ledger */}
-            <div className="p-8 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
+            <div className="p-5 sm:p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
               <div>
                 <div className="size-9 rounded-[8px] bg-[var(--olive-wash)] border border-[var(--olive-border)] flex items-center justify-center text-[var(--olive-accent)] mb-5 transition-colors duration-200" aria-hidden="true">
                   <Cloud className="size-4" />
@@ -517,7 +517,7 @@ export default function MinimalistLandingPage() {
             </div>
 
             {/* 6. Global Analytics & Remote Dashboard */}
-            <div className="p-8 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
+            <div className="p-5 sm:p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
               <div>
                 <div className="size-9 rounded-[8px] bg-[var(--olive-wash)] border border-[var(--olive-border)] flex items-center justify-center text-[var(--olive-accent)] mb-5 transition-colors duration-200" aria-hidden="true">
                   <BarChart3 className="size-4" />
@@ -539,7 +539,7 @@ export default function MinimalistLandingPage() {
           </div>
 
           {/* Core Assurance Callout */}
-          <div className="p-8 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)]">
+          <div className="p-5 sm:p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)]">
             <h4 className="font-heading text-2xl font-bold text-[var(--text-primary)] mb-3">
               100% Prevention of Weight Manipulation. Zero Blind Spots.
             </h4>
@@ -557,9 +557,9 @@ export default function MinimalistLandingPage() {
         ───────────────────────────────────────────────────────────── */}
         <section
           id="live-ledger"
-          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-28 max-w-6xl mx-auto w-full"
+          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-12 sm:py-16 max-w-6xl mx-auto w-full"
         >
-          <div className="max-w-3xl mb-12">
+          <div className="max-w-3xl mb-5 sm:mb-6">
             <span className="font-mono text-xs uppercase tracking-widest text-[var(--text-muted)] block mb-2">
               REAL-TIME CLOUD STREAM // INCOMING &amp; OUTGOING WEIGHMENTS
             </span>
@@ -693,9 +693,9 @@ export default function MinimalistLandingPage() {
         ───────────────────────────────────────────────────────────── */}
         <section
           id="calculator"
-          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-28 max-w-6xl mx-auto w-full"
+          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-12 sm:py-16 max-w-6xl mx-auto w-full"
         >
-          <div className="max-w-3xl mb-12">
+          <div className="max-w-3xl mb-5 sm:mb-6">
             <span className="font-mono text-xs uppercase tracking-widest text-[var(--text-muted)] block mb-3">
               SAVINGS &amp; INVESTMENT MODEL
             </span>
@@ -734,9 +734,9 @@ export default function MinimalistLandingPage() {
         ───────────────────────────────────────────────────────────── */}
         <section
           id="disputes"
-          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-28 max-w-6xl mx-auto w-full"
+          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-12 sm:py-16 max-w-6xl mx-auto w-full"
         >
-          <div className="max-w-3xl mb-16">
+          <div className="max-w-3xl mb-6 sm:mb-8">
             <span className="font-mono text-xs uppercase tracking-widest text-[var(--text-muted)] block mb-3">
               PHOTOGRAPHIC DISPUTE PROTOCOL
             </span>
@@ -750,7 +750,7 @@ export default function MinimalistLandingPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Case 1 */}
-            <div className="p-7 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
+            <div className="p-5 sm:p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
               <div>
                 <div className="flex items-center justify-between mb-4">
                   <Badge variant="yellow">Weight Shortage Dispute</Badge>
@@ -772,7 +772,7 @@ export default function MinimalistLandingPage() {
             </div>
 
             {/* Case 2 */}
-            <div className="p-7 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
+            <div className="p-5 sm:p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
               <div>
                 <div className="flex items-center justify-between mb-4">
                   <Badge variant="blue">Plate &amp; Truck Swap</Badge>
@@ -794,7 +794,7 @@ export default function MinimalistLandingPage() {
             </div>
 
             {/* Case 3 */}
-            <div className="p-7 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
+            <div className="p-5 sm:p-6 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] flex flex-col justify-between">
               <div>
                 <div className="flex items-center justify-between mb-4">
                   <Badge variant="red">Axle Ramp Manipulation</Badge>
@@ -822,7 +822,7 @@ export default function MinimalistLandingPage() {
         ───────────────────────────────────────────────────────────── */}
         <section
           id="faq"
-          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-28 max-w-4xl mx-auto w-full"
+          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-12 sm:py-16 max-w-4xl mx-auto w-full"
         >
           <div className="mb-12">
             <span className="font-mono text-xs uppercase tracking-widest text-[var(--text-muted)] block mb-3">
@@ -895,9 +895,9 @@ export default function MinimalistLandingPage() {
         ───────────────────────────────────────────────────────────── */}
         <section
           id="book-demo"
-          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-28 max-w-4xl mx-auto w-full"
+          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-12 sm:py-16 max-w-4xl mx-auto w-full"
         >
-          <div className="text-center mb-10">
+          <div className="text-center mb-6 sm:mb-8">
             <span className="font-mono text-xs uppercase tracking-widest text-[var(--text-muted)] block mb-3">
               OPERATIONAL SOVEREIGNTY
             </span>
@@ -910,7 +910,7 @@ export default function MinimalistLandingPage() {
             <p className="font-sans text-base text-[var(--text-muted)] max-w-2xl mx-auto mb-6">
               With Gluvok, your facility can move toward a connected weighing workflow where vehicle identification, weight capture, digital records, and camera monitoring work together.
             </p>
-            <div className="p-4 rounded-[8px] bg-[var(--olive-wash)] border border-[var(--olive-border)] max-w-xl mx-auto mb-8">
+            <div className="p-4 rounded-[8px] bg-[var(--olive-wash)] border border-[var(--olive-border)] max-w-xl mx-auto mb-5">
               <p className="font-heading text-base font-bold text-[var(--text-primary)]">
                 Reduce manual dependency. Strengthen accountability. Make decisions with better data.
               </p>
@@ -918,7 +918,7 @@ export default function MinimalistLandingPage() {
             <h3 className="font-heading text-2xl font-bold text-[var(--text-primary)] mb-2">
               Take the Next Step Toward Autonomous Weighbridge Operations.
             </h3>
-            <p className="font-sans text-sm text-[var(--text-muted)] max-w-xl mx-auto mb-6">
+            <p className="font-sans text-sm text-[var(--text-muted)] max-w-xl mx-auto mb-4">
               Discover how Gluvok can help your facility reduce recurring costs, improve transaction traceability, and modernize weighbridge management.
             </p>
             <div className="flex flex-wrap items-center justify-center gap-3">
@@ -947,7 +947,7 @@ export default function MinimalistLandingPage() {
             </div>
           </div>
 
-          <div className="bg-[var(--surface-card)] border border-[var(--border-hairline)] p-8 rounded-[12px] max-w-2xl mx-auto">
+          <div className="bg-[var(--surface-card)] border border-[var(--border-hairline)] p-6 sm:p-7 rounded-[12px] max-w-2xl mx-auto">
             {submitted ? (
               <div className="py-8 text-center space-y-3" role="status" aria-live="polite">
                 <div className="size-10 rounded-full bg-[var(--olive-wash)] text-[var(--olive-text)] border border-[var(--olive-border)] flex items-center justify-center mx-auto text-xl font-bold transition-colors duration-200" aria-hidden="true">
