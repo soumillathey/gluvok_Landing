@@ -19,7 +19,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Input } from "@/components/ui/input";
-import { RoiCalculator } from "@/components/roi-calculator";
 import {
   Table,
   TableBody,
@@ -148,9 +147,6 @@ export default function MinimalistLandingPage() {
             <a href="#live-ledger" className="hover:text-[var(--text-primary)] transition-colors outline-none focus-visible:ring-2 focus-visible:ring-[#111111] rounded-[4px] py-1">
               Live Ledger
             </a>
-            <a href="#calculator" className="hover:text-[var(--text-primary)] transition-colors outline-none focus-visible:ring-2 focus-visible:ring-[#111111] rounded-[4px] py-1">
-              Savings Calculator
-            </a>
             <a href="#faq" className="hover:text-[var(--text-primary)] transition-colors outline-none focus-visible:ring-2 focus-visible:ring-[#111111] rounded-[4px] py-1">
               FAQ
             </a>
@@ -163,11 +159,11 @@ export default function MinimalistLandingPage() {
             size="sm"
             className="hidden sm:inline-flex text-xs"
             onClick={() => {
-              const el = document.getElementById("calculator");
+              const el = document.getElementById("live-ledger");
               el?.scrollIntoView({ behavior: "smooth" });
             }}
           >
-            Live Calculator
+            Live Ledger
           </Button>
           <Button
             variant="default"
@@ -212,22 +208,22 @@ export default function MinimalistLandingPage() {
             <Button
               className="text-xs sm:text-sm font-semibold h-10 px-5"
               onClick={() => {
-                const el = document.getElementById("calculator");
+                const el = document.getElementById("book-demo");
                 el?.scrollIntoView({ behavior: "smooth" });
               }}
             >
-              Calculate Your Potential Savings
+              Request Automation Demo
               <ArrowRight className="size-4 ml-1" aria-hidden="true" />
             </Button>
             <Button
               variant="outline"
               className="text-xs sm:text-sm h-10 px-5"
               onClick={() => {
-                const el = document.getElementById("book-demo");
+                const el = document.getElementById("live-ledger");
                 el?.scrollIntoView({ behavior: "smooth" });
               }}
             >
-              Request Automation Demo
+              Explore Live Ledger
             </Button>
           </div>
 
@@ -575,30 +571,7 @@ export default function MinimalistLandingPage() {
           </div>
         </section>
 
-        {/* ─────────────────────────────────────────────────────────────
-            6. INTERACTIVE CALCULATOR (Minimalist Bento Layout)
-        ───────────────────────────────────────────────────────────── */}
-        <section
-          id="calculator"
-          className="scroll-mt-24 border-t border-[var(--border-hairline)] px-6 lg:px-16 py-8 sm:py-10 max-w-6xl mx-auto w-full"
-        >
-          <div className="max-w-3xl mb-5 sm:mb-6">
-            <span className="font-mono text-xs uppercase tracking-widest text-[var(--text-muted)] block mb-3">
-              SAVINGS &amp; INVESTMENT MODEL
-            </span>
-            <h2 className="font-heading text-xl sm:text-2xl lg:text-3xl font-bold text-[var(--text-primary)] text-balance mb-4">
-              Calculate What Automation Could Save Your Business
-            </h2>
-            <p className="font-sans text-xs sm:text-sm text-[var(--text-muted)] leading-relaxed mb-4">
-              Hardware configurations vary by station. Enter your shift count and operator salaries below to review your recurring payroll and see what automation could save your facility.
-            </p>
-          </div>
 
-          {/* Enterprise ROI Calculator Engine */}
-          <div>
-            <RoiCalculator />
-          </div>
-        </section>
 
 
 
@@ -759,21 +732,9 @@ export default function MinimalistLandingPage() {
                   </div>
                 </div>
 
-                <div className="flex flex-col sm:flex-row gap-3 pt-2">
-                  <Button type="submit" size="lg" className="flex-1 font-semibold">
+                <div className="pt-2">
+                  <Button type="submit" size="lg" className="w-full font-semibold">
                     Book a Demo
-                  </Button>
-                  <Button
-                    type="button"
-                    variant="outline"
-                    size="lg"
-                    className="flex-1"
-                    onClick={() => {
-                      const el = document.getElementById("calculator");
-                      el?.scrollIntoView({ behavior: "smooth" });
-                    }}
-                  >
-                    Discuss Your ROI
                   </Button>
                 </div>
               </form>
@@ -809,9 +770,6 @@ export default function MinimalistLandingPage() {
             </a>
             <a href="#live-ledger" className="hover:text-[var(--text-primary)] transition-colors outline-none focus-visible:ring-2 focus-visible:ring-[#111111] rounded-[2px]">
               Ledger
-            </a>
-            <a href="#calculator" className="hover:text-[var(--text-primary)] transition-colors outline-none focus-visible:ring-2 focus-visible:ring-[#111111] rounded-[2px]">
-              Calculator
             </a>
             <a href="#faq" className="hover:text-[var(--text-primary)] transition-colors outline-none focus-visible:ring-2 focus-visible:ring-[#111111] rounded-[2px]">
               FAQ

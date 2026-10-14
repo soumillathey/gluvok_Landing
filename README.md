@@ -137,9 +137,10 @@ An industrial financial model for weighbridge automation feasibility and staffin
 - **Mathematical Formula Disclosure**: Collapsible section explaining all equations.
 - **Lead Generation Integration**: Tailored assessment request form pre-populated with active calculator parameters.
 
-### Routes & Testing
-- Direct dedicated page: `/roi-calculator`
-- Embedded landing section: `/#calculator`
+### Status, Routes & Testing
+> **Note**: The embedded ROI calculator section and navigation links have been removed from the main landing page flow in favor of direct live weighment ledger telemetry and straightforward demonstration booking.
+
+- Direct route: `/roi-calculator` (redirects to `/`)
 - Cloud console gateway: `/app`
 - Vitest automated tests: `pnpm test` (`lib/roi-calculator.test.ts`)
 

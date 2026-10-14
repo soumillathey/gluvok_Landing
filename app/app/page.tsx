@@ -37,7 +37,7 @@ export default function AppPage() {
           Gluvok Cloud Terminal
         </h1>
         <p className="font-sans text-sm text-[#8B949E] leading-relaxed mb-8">
-          The production cloud management portal is deployed with dedicated hardware instances for authorized industrial plants. Request a deployment assessment or access the interactive ROI model below.
+          The production cloud management portal is deployed with dedicated hardware instances for authorized industrial plants. Request a deployment assessment or explore the live ledger below.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
@@ -49,10 +49,10 @@ export default function AppPage() {
             <ArrowRight className="size-4" />
           </Link>
           <Link
-            href="/roi-calculator"
+            href="/#live-ledger"
             className="h-11 px-6 rounded-lg bg-[#161B22] border border-[#30363D] text-[#F0F6FC] font-sans font-medium text-xs flex items-center justify-center gap-2 hover:border-[#A3E635] transition-colors"
           >
-            <span>Launch ROI Calculator</span>
+            <span>Explore Live Ledger</span>
           </Link>
         </div>
       </main>
