@@ -187,11 +187,6 @@ export default function MinimalistLandingPage() {
             2. HERO SECTION (Editorial Serif Heading + Clean Sans Body)
         ───────────────────────────────────────────────────────────── */}
         <section className="min-h-[calc(100vh-4rem)] flex flex-col justify-center px-6 lg:px-16 py-6 sm:py-8 max-w-6xl mx-auto w-full">
-          <div className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-[var(--olive-wash)] border border-[var(--olive-border)] text-[10px] font-sans font-medium text-[var(--olive-text)] mb-2.5 transition-colors duration-200">
-            <span className="size-1.5 rounded-full bg-[var(--olive-accent)] inline-block transition-colors duration-200" aria-hidden="true" />
-            UNMANNED WEIGHBRIDGE AUTOMATION • ANTI-TAMPER CLOUD SYSTEM
-          </div>
-
           <h1 className="font-heading font-extrabold text-3xl sm:text-4xl lg:text-[46px] leading-[1.1] tracking-[-0.03em] text-[var(--text-primary)] mb-2.5 max-w-4xl text-balance">
             100% Prevention on Weight Manipulation. Zero Operator Fraud.
           </h1>
