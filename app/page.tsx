@@ -196,49 +196,47 @@ export default function MinimalistLandingPage() {
         {/* ─────────────────────────────────────────────────────────────
             2. HERO SECTION (Editorial Serif Heading + Clean Sans Body)
         ───────────────────────────────────────────────────────────── */}
-                <section className="px-6 lg:px-16 pt-5 sm:pt-7 pb-8 sm:pb-10 max-w-6xl mx-auto w-full">
+        <section className="min-h-[calc(100vh-4rem)] flex flex-col justify-center px-6 lg:px-16 py-6 sm:py-8 max-w-6xl mx-auto w-full">
           <div className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-[var(--olive-wash)] border border-[var(--olive-border)] text-[10px] font-sans font-medium text-[var(--olive-text)] mb-2.5 transition-colors duration-200">
             <span className="size-1.5 rounded-full bg-[var(--olive-accent)] inline-block transition-colors duration-200" aria-hidden="true" />
             UNMANNED WEIGHBRIDGE AUTOMATION // 100% ANTI-TAMPER CLOUD SYSTEM
           </div>
 
-          <h1 className="font-heading font-extrabold text-2xl sm:text-3xl lg:text-[38px] leading-[1.12] tracking-[-0.025em] text-[var(--text-primary)] mb-2 max-w-3xl text-balance">
+          <h1 className="font-heading font-extrabold text-3xl sm:text-4xl lg:text-[46px] leading-[1.1] tracking-[-0.03em] text-[var(--text-primary)] mb-2.5 max-w-4xl text-balance">
             100% Prevention on Weight Manipulation. Zero Operator Fraud.
           </h1>
 
-          <h2 className="font-heading text-sm sm:text-base font-semibold text-[var(--text-primary)] mb-2 max-w-2xl">
+          <h2 className="font-heading text-base sm:text-lg font-semibold text-[var(--text-primary)] mb-2.5 max-w-3xl">
             Mitigate On-Site Operator Dependence with Automatic ANPR, Direct Dispute Imagery &amp; Real-Time Cloud Intelligence.
           </h2>
 
-          <p className="font-sans text-xs sm:text-sm text-[var(--text-muted)] leading-relaxed max-w-2xl mb-3 font-normal">
+          <p className="font-sans text-xs sm:text-sm text-[var(--text-muted)] leading-relaxed max-w-3xl mb-3.5 font-normal">
             Traditional weighbridges lose millions to manual weight tampering, operator-driver collusion, billing disputes, and heavy 24/7 staffing costs. Gluvok automates the entire weighing cycle: capturing direct indicator weights, multi-angle dispute photographs, and automatic license plates straight to a global cloud ledger—without requiring operators on-site.
           </p>
 
-          <div className="p-2.5 sm:p-3 rounded-[8px] bg-[var(--olive-wash)] border border-[var(--olive-border)] max-w-2xl mb-4 transition-colors duration-200">
-            <p className="font-sans text-xs sm:text-[13px] font-semibold text-[var(--text-primary)] leading-snug">
+          <div className="p-3 sm:p-3.5 rounded-[10px] bg-[var(--olive-wash)] border border-[var(--olive-border)] max-w-3xl mb-4.5 transition-colors duration-200">
+            <p className="font-sans text-xs sm:text-sm font-semibold text-[var(--text-primary)] leading-snug">
               Autonomous Weighing • Direct Scale Evidence • Instant Dispute Settlement • Global Remote Analytics
             </p>
-            <p className="font-sans text-[11px] text-[var(--text-muted)] mt-0.5">
+            <p className="font-sans text-xs text-[var(--text-muted)] mt-1">
               Every incoming and outgoing vehicle is automatically identified, photographed on the platform, and permanently recorded to the cloud with zero human intervention.
             </p>
           </div>
 
-          <div className="flex flex-wrap items-center gap-2.5 mb-6">
+          <div className="flex flex-wrap items-center gap-3 mb-6">
             <Button
-              size="sm"
-              className="text-xs font-semibold h-9 px-4"
+              className="text-xs sm:text-sm font-semibold h-10 px-5"
               onClick={() => {
                 const el = document.getElementById("calculator");
                 el?.scrollIntoView({ behavior: "smooth" });
               }}
             >
               Calculate Your Potential Savings
-              <ArrowRight className="size-3.5 ml-1" aria-hidden="true" />
+              <ArrowRight className="size-4 ml-1" aria-hidden="true" />
             </Button>
             <Button
               variant="outline"
-              size="sm"
-              className="text-xs h-9 px-4"
+              className="text-xs sm:text-sm h-10 px-5"
               onClick={() => {
                 const el = document.getElementById("book-demo");
                 el?.scrollIntoView({ behavior: "smooth" });
@@ -250,54 +248,54 @@ export default function MinimalistLandingPage() {
 
           {/* 4 Metric Bento Cards */}
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
-            <div className="p-3.5 rounded-[10px] bg-[var(--surface-card)] border border-[var(--border-hairline)]">
+            <div className="p-4 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] shadow-[0_1px_3px_rgba(0,0,0,0.02)]">
               <div className="flex items-center gap-1.5 mb-1.5 text-[var(--olive-accent)]">
-                <ShieldCheck className="size-3.5" />
-                <span className="font-mono text-[10px] uppercase tracking-wider font-semibold">ANTI-TAMPER</span>
+                <ShieldCheck className="size-4" />
+                <span className="font-mono text-[11px] uppercase tracking-wider font-semibold">ANTI-TAMPER</span>
               </div>
-              <div className="font-heading text-xl sm:text-2xl font-bold tracking-tight text-[var(--text-primary)] tabular-nums">
+              <div className="font-heading text-2xl sm:text-[26px] font-bold tracking-tight text-[var(--text-primary)] tabular-nums">
                 100% Lock
               </div>
-              <div className="font-sans text-[11px] text-[var(--text-muted)] mt-1 leading-snug">
+              <div className="font-sans text-xs text-[var(--text-muted)] mt-1 leading-relaxed">
                 Direct encrypted indicator capture prevents manual keyboard alteration or weight manipulation.
               </div>
             </div>
 
-            <div className="p-3.5 rounded-[10px] bg-[var(--surface-card)] border border-[var(--border-hairline)]">
+            <div className="p-4 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] shadow-[0_1px_3px_rgba(0,0,0,0.02)]">
               <div className="flex items-center gap-1.5 mb-1.5 text-[var(--olive-accent)]">
-                <Camera className="size-3.5" />
-                <span className="font-mono text-[10px] uppercase tracking-wider font-semibold">DISPUTE PROOF</span>
+                <Camera className="size-4" />
+                <span className="font-mono text-[11px] uppercase tracking-wider font-semibold">DISPUTE PROOF</span>
               </div>
-              <div className="font-heading text-xl sm:text-2xl font-bold tracking-tight text-[var(--text-primary)]">
+              <div className="font-heading text-2xl sm:text-[26px] font-bold tracking-tight text-[var(--text-primary)]">
                 Direct Images
               </div>
-              <div className="font-sans text-[11px] text-[var(--text-muted)] mt-1 leading-snug">
+              <div className="font-sans text-xs text-[var(--text-muted)] mt-1 leading-relaxed">
                 Multi-angle camera snapshots of truck, cargo bed, and license plate stored for every weighment.
               </div>
             </div>
 
-            <div className="p-3.5 rounded-[10px] bg-[var(--surface-card)] border border-[var(--border-hairline)]">
+            <div className="p-4 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] shadow-[0_1px_3px_rgba(0,0,0,0.02)]">
               <div className="flex items-center gap-1.5 mb-1.5 text-[var(--olive-accent)]">
-                <Scan className="size-3.5" />
-                <span className="font-mono text-[10px] uppercase tracking-wider font-semibold">AUTOMATIC ANPR</span>
+                <Scan className="size-4" />
+                <span className="font-mono text-[11px] uppercase tracking-wider font-semibold">AUTOMATIC ANPR</span>
               </div>
-              <div className="font-heading text-xl sm:text-2xl font-bold tracking-tight text-[var(--text-primary)] tabular-nums">
+              <div className="font-heading text-2xl sm:text-[26px] font-bold tracking-tight text-[var(--text-primary)] tabular-nums">
                 &lt; 1 Second
               </div>
-              <div className="font-sans text-[11px] text-[var(--text-muted)] mt-1 leading-snug">
+              <div className="font-sans text-xs text-[var(--text-muted)] mt-1 leading-relaxed">
                 High-speed OCR vehicle recognition eliminates queue bottlenecks and manual typing errors.
               </div>
             </div>
 
-            <div className="p-3.5 rounded-[10px] bg-[var(--surface-card)] border border-[var(--border-hairline)]">
+            <div className="p-4 rounded-[12px] bg-[var(--surface-card)] border border-[var(--border-hairline)] shadow-[0_1px_3px_rgba(0,0,0,0.02)]">
               <div className="flex items-center gap-1.5 mb-1.5 text-[var(--olive-accent)]">
-                <Cloud className="size-3.5" />
-                <span className="font-mono text-[10px] uppercase tracking-wider font-semibold">CLOUD &amp; ANALYTICS</span>
+                <Cloud className="size-4" />
+                <span className="font-mono text-[11px] uppercase tracking-wider font-semibold">CLOUD &amp; ANALYTICS</span>
               </div>
-              <div className="font-heading text-xl sm:text-2xl font-bold tracking-tight text-[var(--text-primary)]">
+              <div className="font-heading text-2xl sm:text-[26px] font-bold tracking-tight text-[var(--text-primary)]">
                 Global Live
               </div>
-              <div className="font-sans text-[11px] text-[var(--text-muted)] mt-1 leading-snug">
+              <div className="font-sans text-xs text-[var(--text-muted)] mt-1 leading-relaxed">
                 Real-time incoming/outgoing weighments and visual analytical graphs accessible worldwide.
               </div>
             </div>
